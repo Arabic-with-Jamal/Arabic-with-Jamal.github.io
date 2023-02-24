@@ -40,7 +40,7 @@ header {
 }
 
 section {
-    padding: 100px 120px;
+    padding: 100px 100px;
 }
 
 .main{
@@ -56,7 +56,7 @@ section {
 
 .main h2{
     color: lightyellow;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
@@ -73,7 +73,7 @@ section {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -88,6 +88,7 @@ section {
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 1s ease;
+    margin-top: 40px;
 
 }
 
