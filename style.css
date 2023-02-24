@@ -147,10 +147,9 @@ section {
     transform: scale(1.1);
 }
 
-.icon {
-    color: darkred;
-    font-size: 8em;
-    text-align: center;
+.courses-image img {
+    width: 100%;
+    border-radius: 15px;
 }
 .info { 
     text-align: center;
