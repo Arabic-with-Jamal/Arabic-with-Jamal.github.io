@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: "chalkfont";
+    src: url("./fonts/Sandbox\ Melodrama.ttf");
+}
+
+@font-face {
+    font-family: "chalkfont2";
+    src: url("./fonts/kimberly-geswein_kg-broken-vessels-sketch/KGBrokenVesselsSketch.ttf");
+} 
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -62,19 +72,22 @@ section {
 
 .main h2 span{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #fff;
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 3.8em;
+    font-weight: 300;
+    font-family: "chalkfont2", sans-serif;
+    text-transform: uppercase;
 }
 
 .main h3{
-    color: #fff;
-    font-size: 2em;
+    color: dodgerblue;
+    font-size: 3em;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: "chalkfont", sans-serif;
 }
 
 .main-btn{
@@ -86,9 +99,9 @@ section {
     display: inline-block;
     padding: 1em 2.2em;
     border-radius: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     transition: 1s ease;
-    margin-top: 40px;
+    margin-top: 10px;
 
 }
 
@@ -100,7 +113,7 @@ section {
 .social a { 
     color: #fff;
     font-size: 1.7em;
-    padding-right: 30px;
+    padding-right: 58px;
     
 }
 
