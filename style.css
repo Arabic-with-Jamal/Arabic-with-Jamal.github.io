@@ -147,6 +147,11 @@ section {
     transform: scale(1.1);
 }
 
+
+.msa-card{
+    text-decoration: none;
+    color: black;
+}
 .courses-image img {
     width: 100%;
     border-radius: 15px;
