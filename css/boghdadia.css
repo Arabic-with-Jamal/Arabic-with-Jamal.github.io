@@ -73,12 +73,11 @@ section {
 .main h2 span{
     display: inline-block;
     margin-top: 20px;
-    color: #1fc210;
+    color: #fff;
     font-size: 3.8em;
     font-weight: 300;
     font-family: "chalkfont2", sans-serif;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .main h3{
@@ -89,7 +88,6 @@ section {
     margin-top: 80px;
     margin-bottom: 50px;
     font-family: "chalkfont", sans-serif;
-    text-align: center;
 }
 
 .main-btn{
@@ -149,6 +147,11 @@ section {
     transform: scale(1.1);
 }
 
+
+.msa-card{
+    text-decoration: none;
+    color: black;
+}
 .courses-image img {
     width: 100%;
     border-radius: 15px;
@@ -188,7 +191,7 @@ section {
 }
 
 .project-image img{
-    height: 140px;
+    width: 100%;
 }
 
 .project-card:hover .project-image{
@@ -244,7 +247,7 @@ section {
 .footer{
     background-color: black;
     color: #fff;
-    padding: 1.4em;
+    padding: 0.1em;
     display: flex;
     justify-content: space-between;
 }
@@ -256,8 +259,4 @@ section {
 
 .footer-title span{
     color: darkred;
-}
-
-.msa-card {
-    text-decoration: none;
 }
