@@ -119,6 +119,18 @@ section {
     
 }
 
+.yt:hover{
+    color: #FF0000;
+}
+
+.gm:hover{
+    color: #FBBC05;
+}
+
+.wa:hover{
+    color: #25D366;
+}
+
 .title {
     display: flex;
     justify-content: center;
