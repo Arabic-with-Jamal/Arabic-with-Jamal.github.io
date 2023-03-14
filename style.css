@@ -198,6 +198,12 @@ section {
     transition: 0.7s ease;
 }
 
+.project-card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px
+}
+
 .project-card:hover {
     transform: scale(1.1);
 }
