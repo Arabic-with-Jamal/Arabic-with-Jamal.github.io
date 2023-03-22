@@ -18,6 +18,10 @@
 
 }
 
+.body{
+    background-color:yellow;
+}
+
 header {
     background-color: darkred;
     width: 100%;
@@ -286,25 +290,26 @@ section {
 }
 
 .page{
+    background-color: #fdfbfc;
     align-items: center;
-    width: 100vh;
-    height: 86vh;
-    margin-left: 200px;
+    width: 100%;
+    height: 100vh;
   }
   
   .word-container {
+    background-color: #fdfbfc;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100vh;
     height: 86vh;
     padding: 20px;
-    border: 1px solid #ccc;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
   }
   
   .word-info {
@@ -316,6 +321,7 @@ section {
   .word-info img {
     height: 280px;
     margin-right: 20px;
+    border-radius: 20px;
   }
   
   .word-text {
@@ -334,6 +340,22 @@ section {
     justify-content: space-between;
 
   }
+
+  .show-vocab-btn{
+    background-color: #FBBC05;
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: small;
+    transition: 1s ease;
+  }
+
+  .show-vocab-btn:hover {
+    background-color: chocolate;
+    transform: scale(1.03);
+}
   
   .word-meaning p {
     margin: 10px;
