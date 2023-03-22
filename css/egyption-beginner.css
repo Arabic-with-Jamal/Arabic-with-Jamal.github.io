@@ -266,9 +266,14 @@ section {
 .footer{
     background-color: black;
     color: #fff;
-    padding: 1.7em;
+    padding: 0.1em;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .footer-title{
@@ -296,6 +301,10 @@ section {
     height: 86vh;
     padding: 20px;
     border: 1px solid #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .word-info {
