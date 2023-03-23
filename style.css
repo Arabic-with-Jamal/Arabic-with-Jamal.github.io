@@ -106,7 +106,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: darkmagenta;
+    background-color: rgb(184, 7, 7);
     transform: scale(1.1);
 }
 
