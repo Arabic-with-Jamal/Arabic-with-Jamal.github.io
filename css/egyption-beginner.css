@@ -104,16 +104,29 @@ header {
     color: #f12727e6;
 }
 
-.lessons{
-    background-color: antiquewhite;
+.my-nav{
+    background-color: white;
     border-radius: 40px;
     align-content: center;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+#lesson-1{
+    color: cyan;
+}
+
+#lesson-1-1{
+    color: cyan;
 }
 
 .single-lesson{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: black;
     border-radius: 20px;
     padding: 0px 7px;
+    color: #fdfbfc;
+    text-decoration: none;
 }
 
 .page{
@@ -138,7 +151,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 20PX;
+    margin-top: 70PX;
   }
   
   .word-info {
