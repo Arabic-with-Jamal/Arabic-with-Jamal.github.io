@@ -106,21 +106,20 @@ header {
 
 .my-nav{
     background-color: white;
-    border-radius: 40px;
     align-content: center;
     margin-top: 5px;
     text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px 3px;
 }
 
-#lesson-1{
+#current{
     background-color: white;
     color: black;
 }
 
-#lesson-1-1{
-    background-color: white;
-    color: black;
-}
 
 .single-lesson{
     background-color: black;
@@ -152,7 +151,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 70PX;
+    margin-top: 110PX;
   }
   
   .word-info {
