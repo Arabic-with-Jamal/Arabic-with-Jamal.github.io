@@ -183,22 +183,6 @@ header {
 
   }
 
-  .show-vocab-btn{
-    background-color: #FBBC05;
-    cursor: pointer;
-    margin: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: small;
-    transition: 1s ease;
-  }
-
-  .show-vocab-btn:hover {
-    background-color: chocolate;
-    transform: scale(1.03);
-}
-  
   .word-meaning p {
     margin: 10px;
   }
