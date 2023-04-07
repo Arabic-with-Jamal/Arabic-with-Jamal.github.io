@@ -110,15 +110,16 @@ header {
     align-content: center;
     margin-top: 5px;
     text-decoration: none;
-
 }
 
 #lesson-1{
-    color: cyan;
+    background-color: white;
+    color: black;
 }
 
 #lesson-1-1{
-    color: cyan;
+    background-color: white;
+    color: black;
 }
 
 .single-lesson{
