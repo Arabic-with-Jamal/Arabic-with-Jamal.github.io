@@ -138,7 +138,6 @@ header {
   }
   
   .word-container {
-    background-color: #fdfbfc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +150,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 110PX;
+    margin-top: 60PX;
   }
   
   .word-info {
@@ -187,10 +186,13 @@ header {
   }
 
   .word-meaning p {
-    background-color: gray;
-    color: gray;
+    background-color: black;
+    color: white;
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
     margin: 10px;
-    border: solid;
+    border: solid black;
     border-radius: 30px;
     padding: 8px;
     cursor: pointer;
@@ -200,4 +202,15 @@ header {
 
   .word-meaning p:hover{
     color: white;
+    border: solid white;
+    text-decoration: none;
+
+  }
+
+  .play-sound{
+    display: none;
+  }
+
+  .word-meaning p:hover .play-sound{
+    display: block;
   }
