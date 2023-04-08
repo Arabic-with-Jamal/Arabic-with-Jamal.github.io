@@ -18,9 +18,6 @@
 
 }
 
-.body{
-    background-color:yellow;
-}
 
 header {
     background-color: darkred;
@@ -115,18 +112,38 @@ header {
     margin: 3px 3px;
 }
 
-#current{
-    background-color: white;
-    color: black;
-}
-
-
 .single-lesson{
     background-color: black;
     border-radius: 20px;
     padding: 0px 7px;
     color: #fdfbfc;
     text-decoration: none;
+}
+.single-lesson:hover{
+    background-color: gray;
+}
+
+#current{
+    background-color: white;
+    color: black;
+}
+
+
+.but-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#next-pre{
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+#next-pre:hover{
+    color: rgb(49, 49, 49);
 }
 
 .page{
@@ -135,57 +152,73 @@ header {
     width: 100%;
     height: 100vh;
     padding-top: 50px;
-  }
+}
   
-  .word-container {
+.word-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vh;
-    height: 86vh;
-    padding: 20px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 60PX;
-  }
+    margin: 10px;
+}
   
-  .word-info {
+.word-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  .word-info img {
-    height: 280px;
-    margin-right: 20px;
+.word-info img {
+    height: 320px;
     border-radius: 20px;
-  }
+}
   
-  .word-text {
-    font-size: 70px;
+.word-text {
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     cursor: pointer;
     color: #25D366;
-    font-family: 'Amiri', serif;
-  }
+    min-height: 140px;
+    transition: ease;
+}
 
-  .word-text:hover{
-    opacity: 0.8;
-  }
+.word-text:hover{
+    opacity: 0.7;
+}
+
+#person0{
+    color: black;
+}
+
+#person1{
+    color: darkblue;
+}
+
+#person2{
+    color: darkgray;
+}
+
+#person3{
+    color: darkturquoise;
+}
+
+#person4{
+    color: darksalmon;
+}
   
-  .word-meaning {
+.word-meaning {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 15px;
 
-  }
+}
 
-  .word-meaning p {
+.word-meaning p {
     background-color: black;
     color: white;
     text-decoration: line-through;
@@ -198,19 +231,19 @@ header {
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 1px;
-  }
+}
 
-  .word-meaning p:hover{
+.word-meaning p:hover{
     color: white;
     border: solid white;
     text-decoration: none;
 
-  }
+}
 
-  .play-sound{
+.play-sound{
     display: none;
-  }
+}
 
-  .word-meaning p:hover .play-sound{
+.word-meaning p:hover .play-sound{
     display: block;
-  }
+}
