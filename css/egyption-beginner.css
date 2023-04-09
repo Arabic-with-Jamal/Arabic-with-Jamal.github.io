@@ -126,6 +126,7 @@ header {
 #current{
     background-color: white;
     color: black;
+    padding: 0px 10px;
 }
 
 
@@ -234,12 +235,18 @@ header {
     font-weight: bold;
     letter-spacing: 1px;
 }
-
 .word-meaning p:hover{
     color: white;
     border: solid white;
     text-decoration: none;
+}
 
+#flare{
+    margin-right: 8px;
+}
+#flare:hover{
+    color: #FBBC05;
+    text-decoration: none;
 }
 
 .play-sound{
