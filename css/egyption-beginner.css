@@ -211,6 +211,21 @@ header {
 #person4{
     color: darksalmon;
 }
+
+#person1b{
+    color: darkblue;
+    margin: 0px 40px;
+}
+
+#person2b{
+    color: darkgray;
+    margin: 0px 40px;
+}
+
+.persons{
+    display: flex;
+    flex-direction: row;
+}
   
 .word-meaning {
     display: flex;
