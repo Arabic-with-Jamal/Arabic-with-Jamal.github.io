@@ -236,6 +236,12 @@ header {
 
 }
 
+#word-meaning-vocab p {
+    text-decoration: none;
+    margin: 2px;
+    background-color: burlywood;
+}
+
 .word-meaning p {
     background-color: black;
     color: white;
