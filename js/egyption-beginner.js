@@ -1,4 +1,3 @@
-function playSound(soundFile) {
-    var audio = new Audio(soundFile);
-    audio.play();
-  }
+document.getElementById("myParagraph").addEventListener("click", function() {
+  this.classList.toggle("red");
+});
