@@ -164,6 +164,10 @@ header {
     justify-content: center;
     margin: 10px;
 }
+
+#word-container-vocab{
+    padding-bottom: 20px;
+}
   
 .word-info {
     display: flex;
