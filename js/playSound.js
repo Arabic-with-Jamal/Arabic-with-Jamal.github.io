@@ -1,17 +1,18 @@
 const store = {};
 
 const playSound = (directory) => {
-  if (typeof store !== "string") {
+  if (typeof directory !== "string") {
     throw new Error("directory must be a string");
   }
   if (!store.hasOwnProperty(directory)) {
     store[directory] = new Audio(directory);
   }
   const audio = store[directory];
+  console.log(audio)
   audio.play();
 };
 
-export default playSound;
+
 
 /*
   how to use:
