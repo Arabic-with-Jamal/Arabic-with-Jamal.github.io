@@ -118,6 +118,7 @@ header {
     padding: 0px 7px;
     color: #fdfbfc;
     text-decoration: none;
+    margin: 2px;
 }
 .single-lesson:hover{
     background-color: gray;
