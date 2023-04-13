@@ -188,7 +188,7 @@ header {
     justify-content: center;
     text-align: center;
     cursor: pointer;
-    color: #25D366;
+    color: black;
     min-height: 140px;
     transition: ease;
 }
