@@ -88,9 +88,6 @@
 						  sentence.push(word);
 						  sentenceContainer.textContent = sentence.join(" ");
 						  event.target.style.display = "none";
-						  if (sentence.length === words.length) {
-							alert("You completed the sentence!");
-						  }
 						} else {
 						  event.target.classList.add("error");
 						  setTimeout(function() {
