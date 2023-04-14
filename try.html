@@ -88,6 +88,11 @@
 						  sentence.push(word);
 						  sentenceContainer.textContent = sentence.join(" ");
 						  event.target.style.display = "none";
+						  if (sentence.length === words.length) {
+							const sentenceContainer = document.getElementById('sentence-container');
+                            sentenceContainer.style.color = 'green';
+                            sentenceContainer.style.fontWeight = 'bold';
+                       }
 						} else {
 						  event.target.classList.add("error");
 						  setTimeout(function() {
