@@ -355,14 +355,3 @@ p1 {
     outline: 4px solid red;
     transition: outline 0.3s;
   }
-
-  .my-alert::before {
-    content: "\1F389"; /* Unicode code point for party popper emoji */
-    font-size: 24px;
-    margin-right: 10px;
-  }
-
-  /* Style the background color of the alert box */
-  .my-alert {
-    background-color: lightblue;
-  }
