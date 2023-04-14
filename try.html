@@ -67,7 +67,7 @@
                     <div class="word-text">
                         <p>Listen and Choose</p>
                     </div>
-					<div id="sentence-container"></div>
+					<div class="questions" style="height: 320px; font-size: 50px; cursor: pointer;" id="sentence-container"></div>
                 </div>
                 <div class="word-meaning-options" id="sentence-activity">
 					<span class="word" draggable="true">The</span>
@@ -104,6 +104,12 @@
 					  return words[sentence.length].textContent;
 					}
 				</script> 
+				<script>
+					const sentenceActivityDiv = document.querySelector('#sentence-activity');
+					const childNodes = sentenceActivityDiv.childNodes;
+					const shuffledNodes = Array.from(childNodes).sort(() => Math.random() - 0.5);
+					shuffledNodes.forEach(node => sentenceActivityDiv.appendChild(node));
+				</script>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/excersises/listening/10.html"></a>
 
