@@ -194,6 +194,7 @@ header {
     color: black;
     min-height: 140px;
     transition: ease;
+    font-weight: bold;
 }
 
 .word-text:hover{
@@ -263,6 +264,7 @@ header {
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 22px;
 }
 .word-meaning p:hover{
     color: white;
@@ -323,10 +325,11 @@ header {
     margin: 10px;
     border: solid black;
     border-radius: 30px;
-    padding: 8px;
+    padding: 8px 20px;
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 25px;
 }
 
 
