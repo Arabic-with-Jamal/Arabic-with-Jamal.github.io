@@ -277,3 +277,9 @@ section {
 .footer-title span{
     color: #f12727e6;
 }
+
+.pdf{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
