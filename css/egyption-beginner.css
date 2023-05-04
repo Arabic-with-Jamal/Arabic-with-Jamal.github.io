@@ -104,12 +104,12 @@ header {
 .my-nav{
     background-color: white;
     align-content: center;
-    margin-top: 5px;
     text-decoration: none;
     border: solid;
     border-radius: 10px;
     padding: 3px;
     margin: 3px 3px;
+    margin-top: 7px;
 }
 
 .single-lesson{
@@ -122,7 +122,7 @@ header {
     transition: ease 0.5s;
 }
 .single-lesson:hover{
-    background-color: gray;
+    background-color: #25D366;
 }
 
 #current{
@@ -196,7 +196,7 @@ header {
     min-height: 140px;
     transition: ease;
     font-weight: bold;
-    transition: ease 0.5s;
+    transition: ease 0.3s;
 }
 
 .word-text:hover{
