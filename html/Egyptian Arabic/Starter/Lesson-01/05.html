@@ -95,7 +95,15 @@
                   <p class="word-text" id="person0" title="play sound" onclick="playSound('sound.mp3')">حادثة</p>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')">accident : حادثة</p>
+                  <p title="play sound" id="theyBtn-001" onclick="playSound('sound.mp3')">accident : حادثة</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_08.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/06.html"></a>
