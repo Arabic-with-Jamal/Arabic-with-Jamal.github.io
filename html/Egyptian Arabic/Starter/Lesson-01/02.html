@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="/css/egyption-beginner.css">
     <title>Egyptian Arabic Starter</title>
-    <script src="/js/egyption-beginner.js"></script>
+    <script type="text/javascript" src="/js/playSound.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -95,8 +95,24 @@
                   <p class="word-text" id="person1" title="play sound" onclick="playSound('sound.mp3')"> .... انت يا</p>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')">hey(is used before people names) : يا</p>
-                  <p title="play sound" onclick="playSound('sound.mp3')">you : انت</p>
+                  <p title="play sound" id="theyBtn-002" onclick="playSound('sound.mp3')">hey(is used before people names) : يا</p>
+                  <script type="text/javascript">
+                    const theyBtn02 = document.getElementById("theyBtn-002");
+                    console.log(theyBtn02)
+                    theyBtn02.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_04.mp3')
+                    };
+                  </script>
+                  <p title="play sound" id="theyBtn-001" onclick="playSound('sound.mp3')">you : انت</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_03.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/03.html"></a>
