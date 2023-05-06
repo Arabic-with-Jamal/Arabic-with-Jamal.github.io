@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="/css/egyption-beginner.css">
-    <title>try</title>
-    <script type="text/javascript" src="/js/playSound.js"></script>
+    <title>Egyptian Arabic Starter</title>
     <script type="text/javascript" src="/js/playSound.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,80 +42,65 @@
         </nav>
         <nav class="my-nav">
             <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/01.html">&larr;back to lesson</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/vocabulary/flashcards.html">vocabulary excersises</a>
+            <a class="single-lesson" id="current">vocabulary excersises</a>
             <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/listening/01.html">listening excersises</a>
             <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/speaking/01.html">speaking excersises</a>
-            <a class="single-lesson" id="current">making sentences</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/words/01.html">making words</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/01.html">making sentences</a>
             <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/words/01.html">making words</a>
             <a class="single-lesson" href="/html/Egyptian Arabic/Starter/Lesson-02/01.html">next lesson&rarr;</a>
             <br>
-            <a class="single-lesson" id="current">1</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/02.html">2</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/03.html">3</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/04.html">4</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/05.html">5</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/06.html">6</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/07.html">7</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/08.html">8</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/09.html">9</a>
-            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/10.html">10</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/01.html">1</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/02.html">2</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/03.html">3</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/04.html">4</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/05.html">5</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/06.html">6</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/07.html">7</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/08.html">8</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/09.html">9</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/10.html">10</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/11.html">11</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/12.html">12</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/13.html">13</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/14.html">14</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/15.html">15</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/16.html">16</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/17.html">17</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/18.html">18</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/19.html">19</a>
+            <a class="single-lesson" href="/html/Egyptian Arabic/Starter/lesson-02/20.html">20</a>
         </nav>
         <div class="but-nav">
-            <a class="fa-solid fa-circle-chevron-right fa-rotate-180" id="next-pre" title="previous"  href="/html/Egyptian Arabic/Starter/lesson-02/excersises/listening/10.html"></a>
+            <a class="fa-solid fa-circle-chevron-right fa-rotate-180" id="next-pre" title="previous" href="/html/Egyptian Arabic/Starter/lesson-02/43.html"></a>
             <div class="word-container">
                 <div class="word-info">
                     <div class="word-text">
-                        <p>Put the words in order</p>
+                        <p>choose the right meaning</p>
                     </div>
-					<div class="questions" style="height: 320px; font-size: 70px; cursor: pointer;" id="sentence-container"></div>
+                    <p2 class="question">اسمي</p2>
                 </div>
-                <div class="word-meaning-options" id="sentence-activity">
-					<span class="word" draggable="true">ط</span>
-					<span class="word" draggable="true">ر</span>
-					<span class="word" draggable="true">ي</span>
-                    <span class="word" draggable="true">ق</span>
+                <div class="word-meaning-options">
+                    <p1 id="incorrect">hi</p1>
+                    <script>
+                        document.getElementById("incorrect").addEventListener("click", function() {
+                            this.classList.toggle("red");
+                        });
+                    </script>
+                    <p1 id="correct">my name</p1>
+                    <script>
+                        document.getElementById("correct").addEventListener("click", function() {
+                            this.classList.toggle("green");
+                        });
+                    </script>
+                    <p1 id="incorrect2">you</p1>
+                    <script>
+                        document.getElementById("incorrect2").addEventListener("click", function() {
+                            this.classList.toggle("red");
+                        });
+                    </script>
                 </div>
-				<script>
-					var sentence = [];
-					var sentenceContainer = document.querySelector("#sentence-container");
-					var words = document.querySelectorAll("#sentence-activity .word");
-				
-					for (var i = 0; i < words.length; i++) {
-					  words[i].addEventListener("click", function(event) {
-						var word = event.target.textContent;
-						var index = sentence.length;
-						if (word === getNextWord()) {
-						  sentence.push(word);
-						  sentenceContainer.textContent = sentence.join("");
-						  event.target.style.display = "none";
-						  if (sentence.length === words.length) {
-							const sentenceContainer = document.getElementById('sentence-container');
-                            sentenceContainer.style.color = 'green';
-                            sentenceContainer.style.fontWeight = 'bold';
-							sentenceContainer.style.height = '384px';
-                            }
-						} else {
-						  event.target.classList.add("error");
-						  setTimeout(function() {
-							event.target.classList.remove("error");
-						  }, 1500);
-						}
-					  });
-					}
-				
-					function getNextWord() {
-					  return words[sentence.length].textContent;
-					}
-				</script> 
-				<script>
-					const sentenceActivityDiv = document.querySelector('#sentence-activity');
-					const childNodes = sentenceActivityDiv.childNodes;
-					const shuffledNodes = Array.from(childNodes).sort(() => Math.random() - 0.5);
-					shuffledNodes.forEach(node => sentenceActivityDiv.appendChild(node));
-				</script>
             </div>
-            <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/lesson-02/excersises/sentences/02.html"></a>
+            <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/lesson-02/vocab.html"></a>
 
         </div>    
     </section>
