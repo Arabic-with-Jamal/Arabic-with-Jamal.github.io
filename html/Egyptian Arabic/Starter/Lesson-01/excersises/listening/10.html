@@ -68,41 +68,46 @@
                     <div class="word-text">
                         <p>Listen and Choose</p>
                     </div>
-                    <i class="fa-regular fa-circle-play" class="question" style="height: 320px; font-size: 200px; cursor: pointer;" id="theyBtn" style="color: #000000;"></i>
+                    <i class="fa-regular fa-circle-play" class="question" style="height: 320px; font-size: 200px; cursor: pointer;" id="theyBtn-001" style="color: #000000;"></i>
                     <script type="text/javascript">
-                        const theyBtn = document.getElementById("theyBtn");
+                        const theyBtn = document.getElementById("theyBtn-001");
                         console.log(theyBtn)
                         theyBtn.onclick = function(){
                             console.log("hello")
-                            playSound('../../../../../../.././sounds/example.mp3')
+                            playSound('../../../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_29.mp3')
                         };
-                
-                    </script>
+                      </script>
                 </div>
-                <div class="word-meaning-options">
-                    <p1 id="incorrect">hi</p1>
-                    <script>
-                        document.getElementById("incorrect").addEventListener("click", function() {
-                            this.classList.toggle("red");
-                        });
-                    </script>
-                    <p1 id="correct">my name</p1>
+                <div class="word-meaning-options" id="word-meaning-options">
+                    <p1 id="correct">very</p1>
                     <script>
                         document.getElementById("correct").addEventListener("click", function() {
                             this.classList.toggle("green");
                         });
                     </script>
-                    <p1 id="incorrect2">you</p1>
+                    <p1 id="incorrect">sorry</p1>
+                    <script>
+                        document.getElementById("incorrect").addEventListener("click", function() {
+                            this.classList.toggle("red");
+                        });
+                    </script>
+                    <p1 id="incorrect2">I am</p1>
                     <script>
                         document.getElementById("incorrect2").addEventListener("click", function() {
                             this.classList.toggle("red");
                         });
                     </script>
-                    <p1 id="incorrect3">taxi</p1>
+                    <p1 id="incorrect3">there</p1>
                     <script>
                         document.getElementById("incorrect3").addEventListener("click", function() {
                             this.classList.toggle("red");
                         });
+                    </script>
+                    <script>
+                        const sentenceActivityDiv = document.querySelector('#word-meaning-options');
+                        const childNodes = sentenceActivityDiv.childNodes;
+                        const shuffledNodes = Array.from(childNodes).sort(() => Math.random() - 0.5);
+                        shuffledNodes.forEach(node => sentenceActivityDiv.appendChild(node));
                     </script>
                 </div>
             </div>
