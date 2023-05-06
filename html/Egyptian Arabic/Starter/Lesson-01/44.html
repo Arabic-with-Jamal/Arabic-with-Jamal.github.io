@@ -92,10 +92,18 @@
             <div class="word-container">
                 <div class="word-info">
                   <img src="/images/egyptian arabic/lesson 01/44.jpg" alt="Word Image">
-                  <p class="word-text" id="person0" title="play sound" onclick="playSound('sound.mp3')">نهاية سعيدة</p>
+                  <p class="word-text" id="person0" title="play sound" id="theyBtn-001">نهاية سعيدة</p>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')">ending : نهاية</p>
+                  <p title="play sound" id="theyBtn-001">ending : نهاية</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_67.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="go to excersises" href="/html/Egyptian Arabic/Starter/Lesson-01/excersises/vocabulary/flashcards.html"></a>

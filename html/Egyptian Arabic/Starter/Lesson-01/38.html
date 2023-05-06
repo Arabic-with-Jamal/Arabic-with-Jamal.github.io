@@ -92,11 +92,27 @@
             <div class="word-container">
                 <div class="word-info">
                   <img src="/images/egyptian arabic/lesson 01/38.jpg" alt="Word Image">
-                  <p class="word-text" id="person0" title="play sound" onclick="playSound('sound.mp3')">ابتسامة جميلة</p>
+                  <p class="word-text" id="person0" title="play sound" id="theyBtn-001">ابتسامة جميلة</p>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')">smile : ابتسامة</p>
-                  <p title="play sound" onclick="playSound('sound.mp3')"><i class="fa-solid fa-lightbulb" id="flare" title="In Arabic, we place the adjective after the noun not before"></i>beautiful (feminine) : جميلة</p>
+                  <p title="play sound" id="theyBtn-001">smile : ابتسامة</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_62.mp3')
+                    };
+                  </script>
+                  <p title="play sound" id="theyBtn-002"><i class="fa-solid fa-lightbulb" id="flare" title="In Arabic, we place the adjective after the noun not before"></i>beautiful (feminine) : جميلة</p>
+                  <script type="text/javascript">
+                    const theyBtn2 = document.getElementById("theyBtn-002");
+                    console.log(theyBtn2)
+                    theyBtn2.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_61.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/39.html"></a>

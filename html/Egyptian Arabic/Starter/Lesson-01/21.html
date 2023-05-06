@@ -92,11 +92,27 @@
             <div class="word-container">
                 <div class="word-info">
                   <img src="/images/egyptian arabic/lesson 01/21.jpg" alt="Word Image">
-                  <p class="word-text" id="person2" title="play sound" onclick="playSound('sound.mp3')">لا، ده التاكسي بتاعي انا</p>
+                  <p class="word-text" id="person2" title="play sound" id="theyBtn-001">لا، ده التاكسي بتاعي انا</p>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')">no : لا</p>
-                  <p title="play sound" onclick="playSound('sound.mp3')"><i class="fa-solid fa-lightbulb" id="flare" title="used here for emphasis.'this is MY taxi'"></i>I : انا</p>
+                  <p title="play sound" id="theyBtn-001">no : لا</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_36.mp3')
+                    };
+                  </script>
+                  <p title="play sound" id="theyBtn-002"><i class="fa-solid fa-lightbulb" id="flare" title="used here for emphasis.'this is MY taxi'"></i>I : انا</p>
+                  <script type="text/javascript">
+                    const theyBtn2 = document.getElementById("theyBtn-002");
+                    console.log(theyBtn2)
+                    theyBtn2.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_37.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/22.html"></a>

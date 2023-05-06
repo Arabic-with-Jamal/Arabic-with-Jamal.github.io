@@ -93,12 +93,20 @@
                 <div class="word-info">
                   <img src="/images/egyptian arabic/lesson 01/26.jpg" alt="Word Image">
                   <div class="persons">
-                    <p class="word-text" id="person1b" title="play sound" onclick="playSound('sound.mp3')">العجمي</p>
-                    <p class="word-text" id="person2b" title="play sound" onclick="playSound('sound.mp3')">العجمي</p>
+                    <p class="word-text" id="person1b" title="play sound" id="theyBtn-001">العجمي</p>
+                    <p class="word-text" id="person2b" title="play sound" id="theyBtn-001">العجمي</p>
                   </div>
                 </div>
                 <div class="word-meaning" id="word-meaning">
-                  <p title="play sound" onclick="playSound('sound.mp3')"><i class="fa-solid fa-lightbulb" id="flare" title="my hometown :)"></i>an area in Alexandria, Egypt : العجمي</p>
+                  <p title="play sound" id="theyBtn-001"><i class="fa-solid fa-lightbulb" id="flare" title="my hometown :)"></i>an area in Alexandria, Egypt : العجمي</p>
+                  <script type="text/javascript">
+                    const theyBtn = document.getElementById("theyBtn-001");
+                    console.log(theyBtn)
+                    theyBtn.onclick = function(){
+                        console.log("hello")
+                        playSound('../../../.././sounds/egyptian-arabic/starter/lesson-01/audio1970771774_43.mp3')
+                    };
+                  </script>
                 </div>
             </div>
             <a class="fa-solid fa-circle-chevron-right" id="next-pre" title="next" href="/html/Egyptian Arabic/Starter/Lesson-01/27.html"></a>
