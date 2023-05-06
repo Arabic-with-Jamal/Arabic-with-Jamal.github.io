@@ -148,9 +148,11 @@ header {
     text-decoration: none;
     color: black;
     margin: 0px 50px;
+    transition: ease 1s;
 }
 #next-pre:hover{
-    color: rgb(49, 49, 49);
+    color: #25D366;
+    scale: 1.1;
 }
 
 .page{
@@ -196,11 +198,11 @@ header {
     min-height: 140px;
     transition: ease;
     font-weight: bold;
-    transition: ease 0.3s;
+    transition: ease 0.8s;
 }
 
 .word-text:hover{
-    font-size: 4em;
+    scale: 1.2;
     opacity: 0.7;
 }
 
