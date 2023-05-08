@@ -18,6 +18,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: darkred;
     width: 100%;
