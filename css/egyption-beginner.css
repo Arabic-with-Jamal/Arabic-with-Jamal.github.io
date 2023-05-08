@@ -260,7 +260,7 @@ header {
     color: white;
     text-decoration: line-through;
     text-decoration-style: double;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 10px;
     margin: 10px;
     border: solid black;
     border-radius: 30px;
