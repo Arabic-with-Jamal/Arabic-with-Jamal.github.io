@@ -289,3 +289,70 @@ section {
     color: #f12727e6;
 }
 
+@media (max-width: 768px){
+
+    section {
+        padding: 35px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        font-size: 1.4em
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main h2 span {
+        font-size: 2em;
+        margin:  0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .content {
+        margin-bottom: 80px;
+    }
+
+    .contact-cards .card {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer span {
+        font-size: 0.9em;
+    }
+
+    .footer .social {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social a {
+        padding: 0 30px;
+    }
+
+    .con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main h3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
