@@ -71,3 +71,14 @@ resources.forEach((resource) => {
   
 })
 
+//pop up
+
+const cards = document.querySelectorAll('.card');
+
+cards.forEach((card) => {
+  const viewBtn = document.createElement('button');
+  viewBtn.classList.add('view-btn');
+  card.appendChild(viewBtn);
+  viewBtn.innerHTML = 'View Courses';
+});
+
