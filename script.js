@@ -1,3 +1,5 @@
+const body = document.getElementsByTagName('body')
+
 const ham = document.querySelector(".ham");
 const nav = document.querySelector(".navigation");
 
@@ -27,6 +29,22 @@ const resources = [
     a: "./games/tic tac toe/tic.html",
     img: "./games/tic tac toe/pics/tic.jpg",
     aText: 'Play Now'
+  }
+];
+
+const Courses = [
+  {
+    aHref: "./tajweedEnglish.html",
+    img: "/images/tajweedenglish.jpg",
+    p: 'Learn the rules now',
+    aText: 'Better Recitation',
+  },
+  
+  {
+    aHref: "https://www.nourelquran.com/quranforall/fahd/index.php",
+    img: "/images/quran.png",
+    p: 'Read Quran',
+    aText: 'Quran Book {Moshaf}',
   }
 ]
 
@@ -82,3 +100,8 @@ cards.forEach((card) => {
   viewBtn.innerHTML = 'View Courses';
 });
 
+const overlay = document.querySelector('.overlay')
+
+
+
+const viewBtn = document.querySelectorAll('.view-btn');
