@@ -29,10 +29,10 @@ const resources = [
     a: "./games/tic tac toe/tic.html",
     img: "./games/tic tac toe/pics/tic.jpg",
     aText: 'Play Now'
-  }
+  },
 ];
 
-const Courses = [
+const courses = [
   {
     aHref: "./tajweedEnglish.html",
     img: "/images/tajweedenglish.jpg",
@@ -45,8 +45,8 @@ const Courses = [
     img: "/images/quran.png",
     p: 'Read Quran',
     aText: 'Quran Book {Moshaf}',
-  }
-]
+  },
+];
 
 const content = document.querySelector('#learning-re');
 
@@ -100,8 +100,59 @@ cards.forEach((card) => {
   viewBtn.innerHTML = 'View Courses';
 });
 
-const overlay = document.querySelector('.overlay')
+const overlay = document.querySelector('.overlay');
 
+const islamicCards = document.createElement('div');
+islamicCards.classList.add('content');
+overlay.appendChild(islamicCards);
 
+courses.forEach((course) => {
+  const card = document.createElement('a');
+  card.classList.add('msa-card');
+  islamicCards.appendChild(card);
+  card.setAttribute('href', course.aHref);
 
-const viewBtn = document.querySelectorAll('.view-btn');
+  const pCard = document.createElement('div');
+  pCard.classList.add('project-card');
+  card.appendChild(pCard);
+
+  const pImg = document.createElement('div');
+  pCard.appendChild(pImg);
+  pImg.classList.add('project-image');
+
+  const img = document.createElement('img');
+  pImg.appendChild(img);
+  img.setAttribute('src', course.img);
+
+  const pInfo = document.createElement('div');
+  pCard.appendChild(pInfo);
+  pInfo.classList.add('project-info');
+
+  const p = document.createElement('p');
+  pInfo.appendChild(p);
+  p.classList.add('project-category');
+  p.innerHTML = course.p;
+
+  const strong = document.createElement('strong');
+  pInfo.appendChild(strong);
+  strong.classList.add('project-title');
+
+  const a = document.createElement('a');
+  strong.appendChild(a);
+  a.classList.add('more-details');
+  a.innerHTML = course.aText;
+  a.setAttribute('href', course.aHref);
+
+});
+
+const viewBtn = document.getElementsByClassName('view-btn')[2];
+
+viewBtn.addEventListener('click', () => {
+  overlay.style.display = ('flex')
+});
+
+overlay.addEventListener('click', () => {
+  overlay.style.display = ('none')
+});
+
+console.log(viewBtn)
