@@ -46,6 +46,12 @@ const courses = [
     p: 'Read Quran',
     aText: 'Quran Book {Moshaf}',
   },
+  {
+    aHref: "/html/islamic-studies/islamic-studies.html",
+    img: "/images/books.jpg",
+    p: 'Learn Islam',
+    aText: 'Islamic Studies',
+  },
 ];
 
 const content = document.querySelector('#learning-re');
