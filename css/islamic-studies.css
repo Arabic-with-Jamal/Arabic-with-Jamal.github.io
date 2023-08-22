@@ -1,14 +1,38 @@
+body {
+  background: url(/images/islamic\ bg.jpg);
+}
+
+h1 {
+  color: thistle;
+}
+
+h2 {
+  color: azure;
+}
+
 .all {
   padding: 20px;
 }
 
+.cont {
+  padding: 0 30px;
+}
+
 .grades {
-  margin-left: 30px;
+  margin: 10px;
+  list-style-type: none;
 }
 
 .grades a {
   text-decoration: none;
-  color: teal;
+  color: antiquewhite;
   font-size: large;
   font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.grades a:hover {
+  cursor: pointer;
+  color: rgb(22, 180, 180);
+  transform: scale(1.9);
 }
