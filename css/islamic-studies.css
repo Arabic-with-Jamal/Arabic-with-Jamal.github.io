@@ -1,0 +1,14 @@
+.all {
+  padding: 20px;
+}
+
+.grades {
+  margin-left: 30px;
+}
+
+.grades a {
+  text-decoration: none;
+  color: teal;
+  font-size: large;
+  font-weight: bold;
+}
