@@ -34,7 +34,7 @@ const resources = [
 
 const courses = [
   {
-    aHref: "./tajweedEnglish.html",
+    aHref: "/html/tajweedEnglish.html",
     img: "/images/tajweedenglish.jpg",
     p: 'Learn the rules now',
     aText: 'Better Recitation',
