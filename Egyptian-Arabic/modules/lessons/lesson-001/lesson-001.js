@@ -22,7 +22,7 @@ export const lesson001 = {
           with greetings in Egyption Arabic. Then ${speaker4} comes up and starts talking to him.`,
         },
         {
-          type: 'Intro',
+          type: 'intro',
           imgURl: './modules/lessons/lesson-001/images/001.png',
           title: 'Introduction',
           intro: true,
