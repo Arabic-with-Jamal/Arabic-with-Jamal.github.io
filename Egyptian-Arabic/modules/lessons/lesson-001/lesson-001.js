@@ -23,7 +23,7 @@ export const lesson001 = {
         },
         {
           type: 'Intro',
-          imgURl: '/modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
           title: 'Introduction',
           intro: true,
           description: 'In this lesson you will learn:',
@@ -42,7 +42,7 @@ export const lesson001 = {
       slides: [
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/002.png',
+          imgURl: './modules/lessons/lesson-001/images/002.png',
           convo: 'صباح الخير أستاذة ندى',
           speaker: audiobook,
           vocab: [
@@ -53,7 +53,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/003.png',
+          imgURl: './modules/lessons/lesson-001/images/003.png',
           convo: 'صباح النور أستاذ أحمد.ازاي حضرتك',
           speaker: audiobook,
           vocab: [
@@ -65,7 +65,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/006.png',
+          imgURl: './modules/lessons/lesson-001/images/006.png',
           convo: 'كويس جدا الحمد لله. حضرتك عاملة ايه؟',
           speaker: audiobook,
           vocab: [
@@ -78,7 +78,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/004.png',
+          imgURl: './modules/lessons/lesson-001/images/004.png',
           convo: 'مساء الخير أستاذ طارق ازيك؟',
           speaker: audiobook,
           vocab: [
@@ -88,7 +88,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/005.png',
+          imgURl: './modules/lessons/lesson-001/images/005.png',
           convo: 'مساء النور أستاذة رضوى.أنا بخير الحمد لله. انتي ازيك؟',
           speaker: audiobook,
           vocab: [
@@ -100,7 +100,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/007.png',
+          imgURl: './modules/lessons/lesson-001/images/007.png',
           convo: 'ايه الاخبار يا صاحبي؟ كله تمام؟',
           speaker: audiobook,
           vocab: [
@@ -115,7 +115,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/008.png',
+          imgURl: './modules/lessons/lesson-001/images/008.png',
           convo: 'زي الفل يا صاحبي. انت عامل ايه؟',
           speaker: audiobook,
           vocab: [
@@ -127,13 +127,13 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/009.png',
+          imgURl: './modules/lessons/lesson-001/images/009.png',
           convo: 'no conversation',
           speaker: 'conversation:',
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/010.png',
+          imgURl: './modules/lessons/lesson-001/images/010.png',
           convo: 'حلوة اوي',
           speaker: speaker4,
           vocab: [
@@ -143,7 +143,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/011.png',
+          imgURl: './modules/lessons/lesson-001/images/011.png',
           convo: 'ايوة؟',
           speaker: speaker1,
           vocab: [
@@ -152,7 +152,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/012.png',
+          imgURl: './modules/lessons/lesson-001/images/012.png',
           convo: 'الشنطة حلوة',
           speaker: speaker4,
           vocab: [
@@ -162,7 +162,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/013.png',
+          imgURl: './modules/lessons/lesson-001/images/013.png',
           convo: 'معلش؟ الشنطة؟',
           speaker: speaker4,
           vocab: [
@@ -171,7 +171,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/014.png',
+          imgURl: './modules/lessons/lesson-001/images/014.png',
           convo: 'اه الشنطة جميلة',
           speaker: speaker4,
           vocab: [
@@ -181,7 +181,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/015.png',
+          imgURl: './modules/lessons/lesson-001/images/015.png',
           convo: 'دنيا تعالي هنا',
           speaker: speaker2,
           vocab: [
@@ -191,7 +191,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/016.png',
+          imgURl: './modules/lessons/lesson-001/images/016.png',
           convo: 'لا مؤاخذة',
           speaker: speaker2,
           vocab: [
@@ -200,7 +200,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/017.png',
+          imgURl: './modules/lessons/lesson-001/images/017.png',
           convo: 'لو سمحتي',
           speaker: speaker1,
           vocab: [
@@ -209,7 +209,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/018.png',
+          imgURl: './modules/lessons/lesson-001/images/018.png',
           convo: 'شارع السلام في العجمي',
           speaker: speaker1,
           vocab: [
@@ -219,7 +219,7 @@ export const lesson001 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/019.png',
+          imgURl: './modules/lessons/lesson-001/images/019.png',
           convo: 'confused look',
           speaker: narrator,
         },
@@ -263,12 +263,12 @@ export const lesson001 = {
       slides: [
         {
           type: 'section-intro',
-          imgURl:'/modules/lessons/lesson-001/images/001.png'
+          imgURl:'./modules/lessons/lesson-001/images/001.png'
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: '/modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
           description: `The informal form of address is used within the family, among friends
           and acquaintances, and often also among colleagues.`
         },
@@ -285,7 +285,7 @@ export const lesson002 = {
       title: 'Introduction',
       slides: [
         {
-          imgURl: '/modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
           title: 'introduction',
           firstBox: '',
           secondBox: 'wow lesson',
@@ -298,7 +298,7 @@ export const lesson002 = {
       slides: [
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/002.png',
+          imgURl: './modules/lessons/lesson-001/images/002.png',
           convo: 'صباح الخير أستاذة ندى، ازيك؟',
           speaker: audiobook,
           vocab: [
@@ -310,7 +310,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/003.png',
+          imgURl: './modules/lessons/lesson-001/images/003.png',
           convo: 'صباح النور أستاذ أحمد. الحمد لله بخير انت ازيك؟',
           speaker: audiobook,
           vocab: [
@@ -329,7 +329,7 @@ export const lesson002 = {
       title: 'Introduction',
       slides: [
         {
-          imgURl: '/modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
           title: 'introduction',
           firstBox: '',
           secondBox: 'wow lesson',
@@ -342,7 +342,7 @@ export const lesson002 = {
       slides: [
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/002.png',
+          imgURl: './modules/lessons/lesson-001/images/002.png',
           convo: 'صباح الخير أستاذة ندى، ازيك؟',
           speaker: audiobook,
           vocab: [
@@ -354,7 +354,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: '/modules/lessons/lesson-001/images/003.png',
+          imgURl: './modules/lessons/lesson-001/images/003.png',
           convo: 'صباح النور أستاذ أحمد. الحمد لله بخير انت ازيك؟',
           speaker: audiobook,
           vocab: [
