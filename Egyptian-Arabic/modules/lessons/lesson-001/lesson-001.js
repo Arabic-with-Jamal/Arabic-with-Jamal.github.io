@@ -311,7 +311,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/003.png',
-          convo: 'صباح النور أستاذ أحمد. الحمد لله بخير انت ازيك؟',
+          convo: 'صباح النور أستاذ أحمد، الحمد لله بخير انت ازيك؟',
           speaker: audiobook,
           vocab: [
             {word: 'light : النور', url: '/audio1970771774_01.mp3'},
