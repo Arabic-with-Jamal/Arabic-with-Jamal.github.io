@@ -1,0 +1,284 @@
+.display-none {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  width: 100%;
+}
+
+.controlsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.slide {
+  align-items: center;
+  flex-direction: column;
+  font-size: 2em;
+  max-height: 100%;
+  justify-content: space-between;
+  align-content: space-between;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.btn {
+  border: transparent;
+  border-radius: 0.25em;
+  font-size: 1.25em;
+  margin: 0 0.25em;
+  padding: 0.5em 1em;
+}
+
+.is-selected {
+  border-color: gold;
+  display: flex;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  padding: 4px 6px;
+  border-radius: 8px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  flex-direction: column;
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: 50%;
+  overflow: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  bottom: 0%;
+  z-index: 1; /* Ensure the dropdown is on top of other elements */
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+
+
+.dropdown-lesson {
+  display: none;
+  transition: max-height 3s ease-in-out;
+}
+
+.active-lesson {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.selected {
+  background-color: aqua;
+}
+
+.section-intro {
+  width: 100%;
+  height: 100%;
+  font-size: 200%;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+}
+
+.goals {
+  display: flex;
+}
+
+.goal {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f6efef;
+  border: #ceb8b8 2px solid;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.story-img {
+  width: 40%;
+  border-radius: 8px;
+  min-width: 400px;
+}
+
+.convo-div {
+  margin: 10px;
+}
+
+h6 {
+  margin: 10px;
+  font-size: 0.6em;
+}
+
+.convo-box {
+  margin: 10px;
+  font-size: 2em;
+}
+
+.vocab-big-div {
+  margin-top: 10px;
+}
+
+.vocab-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vocab-box {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 16px;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  border: 3px solid #ddd;
+  text-decoration: line-through;
+  text-decoration-thickness: 15px;
+}
+
+.vocab-box:hover{
+  border: solid white;
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+
+.description {
+  padding: 10px;
+  font-size: 1em;
+  border: 3px solid black;
+  border-radius: 8px;
+  background-color: #ddd;
+  max-width: 50%;
+}
+
+.intro-img {
+  width: 50%
+}
+
+.quizlet {
+  height: 100%;
+  border-radius: 8px;
+  width: 90%;
+}
+
+@media screen and (max-width: 725px) {
+  .slide {
+    max-height: 90%;
+  }
+  .goal {
+    font-size: 0.6em;
+  }
+
+  .story-img {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .description {
+    min-width: 95%;
+    font-size: 0.8em;
+  }
+
+  .convo-div {
+    margin: 10px;
+  }
+
+  h6 {
+    margin: 5px;
+    font-size: 0.5em;
+  }
+
+  .convo-box {
+    font-size: 1.2em;
+  }
+
+  .vocab-big-div {
+    margin-top: 10px;
+  }
+
+  .vocab-box {
+    font-size: 0.6em;
+  }
+}
