@@ -176,7 +176,7 @@ export const lesson001 = {
           speaker: speaker4,
           vocab: [
             {word: 'اه', meaning: 'yes', url: '/audio1970771774_01.mp3'},
-            {word: 'جميلة', meaning: 'beatiful', url: '/audio1970771774_01.mp3'},
+            {word: 'جميلة', meaning: 'beautiful', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
