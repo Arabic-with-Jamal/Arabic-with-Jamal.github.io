@@ -332,7 +332,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/002.png',
           convo: 'اهلا',
-          speaker: audiobook,
+          speaker: speaker4,
           vocab: [
             {word: 'اهلا', meaning: 'morning', url: '/audio1970771774_03.mp3'},
           ]
@@ -341,7 +341,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/003.png',
           convo: 'صعبة اوي',
-          speaker: audiobook,
+          speaker: speaker4,
           vocab: [
             {word: 'صعبة', meaning: 'morning', url: '/audio1970771774_03.mp3'},
           ]
@@ -350,7 +350,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/004.png',
           convo: 'ايوة انا هناك ',
-          speaker: audiobook,
+          speaker: 'man on phone',
           vocab: [
             {word: 'هناك', meaning: 'light', url: '/audio1970771774_04.mp3'},
           ]
@@ -358,8 +358,8 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/005.png',
-          convo: 'الورق في الفندق',
-          speaker: audiobook,
+          convo: ' سيب الورق في الفندق',
+          speaker: 'man on phone',
           vocab: [
             {word: 'سيب', meaning: 'Mr', url: '/audio1970771774_01.mp3'},
             {word: 'ورق', meaning: 'how', url: '/audio1970771774_01.mp3'},
@@ -371,7 +371,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/006.png',
           convo: 'The taxi driver picking up the bags',
-          speaker: audiobook,
+          speaker: 'Narrator',
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -380,7 +380,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/007.png',
           convo: 'جامدة اوي. تاني',
-          speaker: audiobook,
+          speaker: speaker4,
           vocab: [
             {word: 'جامدة', meaning: 'good', url: '/audio1970771774_01.mp3'},
             {word: 'تاني', meaning: 'very', url: '/audio1970771774_01.mp3'},
@@ -390,7 +390,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/008.png',
           convo: 'نص البلد لو سمحت عند سيسل',
-          speaker: audiobook,
+          speaker: 'man',
           vocab: [
             {word: 'نص', meaning: 'evening', url: '/audio1970771774_01.mp3'},
             {word: 'البلد', meaning: 'how are you (m)', url: '/audio1970771774_01.mp3'},
@@ -403,7 +403,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/009.png',
           convo: 'مطعم سيسل ولا فندق سيسل؟',
-          speaker: audiobook,
+          speaker: 'Taki driver',
           vocab: [
             {word: 'مطعم', meaning: 'In good condition', url: '/audio1970771774_01.mp3'},
             {word: 'ولا', meaning: 'I [am]', url: '/audio1970771774_01.mp3'},
@@ -413,7 +413,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/010.png',
           convo: 'مطعم سيسل',
-          speaker: audiobook,
+          speaker: 'man',
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -422,7 +422,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/011.png',
           convo: 'ايه ده؟',
-          speaker: audiobook,
+          speaker: speaker1,
           vocab: [
             {word: 'ده', meaning: 'what', url: '/audio1970771774_01.mp3'},
           ]
@@ -431,7 +431,7 @@ export const lesson002 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/012.png',
           convo: 'استنا',
-          speaker: audiobook,
+          speaker: speaker1,
           vocab: [
             {word: 'استنا', meaning: 'what', url: '/audio1970771774_01.mp3'},
           ]
