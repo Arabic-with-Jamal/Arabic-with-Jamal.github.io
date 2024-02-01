@@ -405,8 +405,8 @@ export const lesson002 = {
           convo: 'مطعم سيسل ولا فندق سيسل؟',
           speaker: 'Taki driver',
           vocab: [
-            {word: 'مطعم', meaning: 'In good condition', url: '/audio1970771774_01.mp3'},
-            {word: 'ولا', meaning: 'I [am]', url: '/audio1970771774_01.mp3'},
+            {word: 'مطعم', meaning: 'restaurant', url: '/audio1970771774_01.mp3'},
+            {word: 'ولا', meaning: 'or', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -424,7 +424,7 @@ export const lesson002 = {
           convo: 'ايه ده؟',
           speaker: speaker1,
           vocab: [
-            {word: 'ده', meaning: 'what', url: '/audio1970771774_01.mp3'},
+            {word: 'ده', meaning: 'this (m)', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -433,7 +433,7 @@ export const lesson002 = {
           convo: 'استنا',
           speaker: speaker1,
           vocab: [
-            {word: 'استنا', meaning: 'what', url: '/audio1970771774_01.mp3'},
+            {word: 'استنا', meaning: 'wait', url: '/audio1970771774_01.mp3'},
           ]
         },
       ]
