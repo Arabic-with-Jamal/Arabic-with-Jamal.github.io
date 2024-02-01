@@ -33,7 +33,6 @@ export const lesson001 = {
             '3- to say how you feel',
             '4- to distinguish between formal and informal greetings',
           ],
-
         }
       ]
     },
@@ -272,6 +271,26 @@ export const lesson001 = {
           description: `The informal form of address is used within the family, among friends
           and acquaintances, and often also among colleagues.`
         },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `In Egypt, everyone is addressed by their first name. even in formal situations`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `The formal address is used with unfamiliar adults, in business situations,
+          with officials, or when shopping.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `We use "good morning" untill noon, and we use "good evening" for the rest
+          of the day`
+        },
       ]
     },
   ],
@@ -285,11 +304,24 @@ export const lesson002 = {
       title: 'Introduction',
       slides: [
         {
-          imgURl: './modules/lessons/lesson-001/images/001.png',
-          title: 'introduction',
-          firstBox: '',
-          secondBox: 'wow lesson',
-          thirdBox: 'please start',
+          type: 'intro',
+          imgURl: './modules/lessons/lesson-002/images/001.png',
+          title: 'Introduction',
+          intro: true,
+          description: `${speaker1} is taking a look around the airport and absorbing the sights
+          and sounds. As he leaves the airport he meets ${speaker4} again. And he suddenly realizes that
+          his bag has vanished.`
+        },
+        {
+          type: 'intro',
+          imgURl: './modules/lessons/lesson-002/images/001.png',
+          title: 'Introduction',
+          intro: true,
+          description: 'In this lesson you will learn:',
+          goals: [
+            '1- your first words in Arabic',
+            "2- to understand longer texts for the first time",
+          ],
         }
       ]
     },
@@ -298,31 +330,103 @@ export const lesson002 = {
       slides: [
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-001/images/002.png',
-          convo: 'صباح الخير أستاذة ندى، ازيك؟',
+          imgURl: './modules/lessons/lesson-002/images/002.png',
+          convo: 'صعبة اوي',
           speaker: audiobook,
           vocab: [
-            {word: 'morning : صباح', url: '/audio1970771774_01.mp3'},
-            {word: 'good : الخير', url: '/audio1970771774_02.mp3'},
-            {word: 'Ms : أستاذة', url: '/audio1970771774_03.mp3'},
-            {word: 'how are you? (m) : ازيك؟', url: '/audio1970771774_04.mp3'},
+            {word: 'صعبة', meaning: 'morning', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-001/images/003.png',
-          convo: 'صباح النور أستاذ أحمد، الحمد لله بخير انت ازيك؟',
+          imgURl: './modules/lessons/lesson-002/images/003.png',
+          convo: 'ايوة انا هناك ',
           speaker: audiobook,
           vocab: [
-            {word: 'light : النور', url: '/audio1970771774_01.mp3'},
-            {word: 'Mr : أستاذ', url: '/audio1970771774_01.mp3'},
-            {word: 'thank god : الحمد لله', url: '/audio1970771774_01.mp3'},
-            {word: 'fine : بخير', url: '/audio1970771774_01.mp3'},
-            {word: 'you (f) : انت', url: '/audio1970771774_01.mp3'},
-            {word: 'how are you (f) : ازيك؟', url: '/audio1970771774_01.mp3'},                 
+            {word: 'هناك', meaning: 'light', url: '/audio1970771774_04.mp3'},
           ]
         },
-
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/004.png',
+          convo: 'الورق في الفندق',
+          speaker: audiobook,
+          vocab: [
+            {word: 'سيب', meaning: 'Mr', url: '/audio1970771774_01.mp3'},
+            {word: 'ورق', meaning: 'how', url: '/audio1970771774_01.mp3'},
+            {word: 'في', meaning: 'you (m, formal)', url: '/audio1970771774_01.mp3'},
+            {word: 'فندق', meaning: 'you (m, formal)', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/005.png',
+          convo: 'جامدة اوي. تاني',
+          speaker: audiobook,
+          vocab: [
+            {word: 'جامدة', meaning: 'good', url: '/audio1970771774_01.mp3'},
+            {word: 'تاني', meaning: 'very', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/006.png',
+          convo: 'نص البلد لو سمحت عند سيسل',
+          speaker: audiobook,
+          vocab: [
+            {word: 'نص', meaning: 'evening', url: '/audio1970771774_01.mp3'},
+            {word: 'البلد', meaning: 'how are you (m)', url: '/audio1970771774_01.mp3'},
+            {word: 'لو', meaning: 'evening', url: '/audio1970771774_01.mp3'},
+            {word: 'سمحت', meaning: 'how are you (m)', url: '/audio1970771774_01.mp3'},
+            {word: 'عند', meaning: 'evening', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/007.png',
+          convo: 'مطعم سيسل ولا فندق سيسل؟',
+          speaker: audiobook,
+          vocab: [
+            {word: 'مطعم', meaning: 'In good condition', url: '/audio1970771774_01.mp3'},
+            {word: 'ولا', meaning: 'I [am]', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/008.png',
+          convo: 'مطعم سيسل',
+          speaker: audiobook,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/005.png',
+          convo: 'تمام',
+          speaker: audiobook,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/007.png',
+          convo: 'ايه ده؟',
+          speaker: audiobook,
+          vocab: [
+            {word: 'ده', meaning: 'what', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/007.png',
+          convo: 'استنا',
+          speaker: audiobook,
+          vocab: [
+            {word: 'استنا', meaning: 'what', url: '/audio1970771774_01.mp3'},
+          ]
+        },
       ]
     },
     {
@@ -343,13 +447,10 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/002.png',
-          convo: 'صباح الخير أستاذة ندى، ازيك؟',
+          convo: 'صعبة اوي',
           speaker: audiobook,
           vocab: [
             {word: 'morning : صباح', url: '/audio1970771774_01.mp3'},
-            {word: 'good : الخير', url: '/audio1970771774_02.mp3'},
-            {word: 'Ms : أستاذة', url: '/audio1970771774_03.mp3'},
-            {word: 'how are you? (m) : ازيك؟', url: '/audio1970771774_04.mp3'},
           ]
         },
         {
