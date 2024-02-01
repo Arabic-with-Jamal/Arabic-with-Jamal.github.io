@@ -288,7 +288,7 @@ export const lesson001 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-001/images/001.png',
-          description: `We use "good morning" untill noon, and we use "good evening" for the rest
+          description: `We use "good morning" until noon, and we use "good evening" for the rest
           of the day`
         },
       ]
