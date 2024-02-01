@@ -334,7 +334,7 @@ export const lesson002 = {
           convo: 'اهلا',
           speaker: speaker4,
           vocab: [
-            {word: 'اهلا', meaning: 'morning', url: '/audio1970771774_03.mp3'},
+            {word: 'اهلا', meaning: 'welcome', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
@@ -343,7 +343,7 @@ export const lesson002 = {
           convo: 'صعبة اوي',
           speaker: speaker4,
           vocab: [
-            {word: 'صعبة', meaning: 'morning', url: '/audio1970771774_03.mp3'},
+            {word: 'صعبة', meaning: 'hard', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
@@ -352,7 +352,7 @@ export const lesson002 = {
           convo: 'ايوة انا هناك ',
           speaker: 'man on phone',
           vocab: [
-            {word: 'هناك', meaning: 'light', url: '/audio1970771774_04.mp3'},
+            {word: 'هناك', meaning: 'there', url: '/audio1970771774_04.mp3'},
           ]
         },
         {
@@ -361,10 +361,10 @@ export const lesson002 = {
           convo: ' سيب الورق في الفندق',
           speaker: 'man on phone',
           vocab: [
-            {word: 'سيب', meaning: 'Mr', url: '/audio1970771774_01.mp3'},
-            {word: 'ورق', meaning: 'how', url: '/audio1970771774_01.mp3'},
-            {word: 'في', meaning: 'you (m, formal)', url: '/audio1970771774_01.mp3'},
-            {word: 'فندق', meaning: 'you (m, formal)', url: '/audio1970771774_01.mp3'},
+            {word: 'سيب', meaning: 'leave', url: '/audio1970771774_01.mp3'},
+            {word: 'ورق', meaning: 'paper', url: '/audio1970771774_01.mp3'},
+            {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
+            {word: 'فندق', meaning: 'hotel', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -382,8 +382,8 @@ export const lesson002 = {
           convo: 'جامدة اوي. تاني',
           speaker: speaker4,
           vocab: [
-            {word: 'جامدة', meaning: 'good', url: '/audio1970771774_01.mp3'},
-            {word: 'تاني', meaning: 'very', url: '/audio1970771774_01.mp3'},
+            {word: 'جامدة', meaning: 'very cool', url: '/audio1970771774_01.mp3'},
+            {word: 'تاني', meaning: 'again', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -392,11 +392,11 @@ export const lesson002 = {
           convo: 'نص البلد لو سمحت عند سيسل',
           speaker: 'man',
           vocab: [
-            {word: 'نص', meaning: 'evening', url: '/audio1970771774_01.mp3'},
-            {word: 'البلد', meaning: 'how are you (m)', url: '/audio1970771774_01.mp3'},
-            {word: 'لو', meaning: 'evening', url: '/audio1970771774_01.mp3'},
-            {word: 'سمحت', meaning: 'how are you (m)', url: '/audio1970771774_01.mp3'},
-            {word: 'عند', meaning: 'evening', url: '/audio1970771774_01.mp3'},
+            {word: 'نص', meaning: 'half', url: '/audio1970771774_01.mp3'},
+            {word: 'بلد', meaning: 'country', url: '/audio1970771774_01.mp3'},
+            {word: 'لو', meaning: 'if', url: '/audio1970771774_01.mp3'},
+            {word: 'سمحت', meaning: 'you please', url: '/audio1970771774_01.mp3'},
+            {word: 'عند', meaning: 'at', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
