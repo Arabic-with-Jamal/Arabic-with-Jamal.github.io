@@ -331,6 +331,15 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/002.png',
+          convo: 'اهلا',
+          speaker: audiobook,
+          vocab: [
+            {word: 'اهلا', meaning: 'morning', url: '/audio1970771774_03.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/003.png',
           convo: 'صعبة اوي',
           speaker: audiobook,
           vocab: [
@@ -339,7 +348,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/003.png',
+          imgURl: './modules/lessons/lesson-002/images/004.png',
           convo: 'ايوة انا هناك ',
           speaker: audiobook,
           vocab: [
@@ -348,7 +357,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/004.png',
+          imgURl: './modules/lessons/lesson-002/images/005.png',
           convo: 'الورق في الفندق',
           speaker: audiobook,
           vocab: [
@@ -360,7 +369,16 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/005.png',
+          imgURl: './modules/lessons/lesson-002/images/006.png',
+          convo: 'The taxi driver picking up the bags',
+          speaker: audiobook,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-002/images/007.png',
           convo: 'جامدة اوي. تاني',
           speaker: audiobook,
           vocab: [
@@ -370,7 +388,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/006.png',
+          imgURl: './modules/lessons/lesson-002/images/008.png',
           convo: 'نص البلد لو سمحت عند سيسل',
           speaker: audiobook,
           vocab: [
@@ -383,7 +401,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/007.png',
+          imgURl: './modules/lessons/lesson-002/images/009.png',
           convo: 'مطعم سيسل ولا فندق سيسل؟',
           speaker: audiobook,
           vocab: [
@@ -393,7 +411,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/008.png',
+          imgURl: './modules/lessons/lesson-002/images/010.png',
           convo: 'مطعم سيسل',
           speaker: audiobook,
           vocab: [
@@ -402,16 +420,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/005.png',
-          convo: 'تمام',
-          speaker: audiobook,
-          vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/007.png',
+          imgURl: './modules/lessons/lesson-002/images/011.png',
           convo: 'ايه ده؟',
           speaker: audiobook,
           vocab: [
@@ -420,7 +429,7 @@ export const lesson002 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-002/images/007.png',
+          imgURl: './modules/lessons/lesson-002/images/012.png',
           convo: 'استنا',
           speaker: audiobook,
           vocab: [
