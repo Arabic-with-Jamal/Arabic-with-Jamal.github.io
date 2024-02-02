@@ -1,4 +1,4 @@
-import { speaker1, speaker4, narrator } from "../lesson-001/lesson-001.js"
+import { speaker1, speaker2, speaker4, narrator, audiobook } from "../lesson-001/lesson-001.js"
 
 export const lesson002 = {
   chapter: 'Meeting and greeting',
