@@ -137,6 +137,13 @@
   transition: max-height 3s ease-in-out;
 }
 
+.lesson-link {
+  font-size: 1.1em;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f4ffed;
+}
+
 .active-lesson {
   display: block;
 }

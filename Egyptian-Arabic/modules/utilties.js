@@ -20,3 +20,21 @@ export const playSound = (directory) => {
   const audio = store[directory];
   audio.play();
 };
+
+
+// Add vocab
+const lesson001Vocab = [];
+export function quizletMaker(lesson){
+  const lesson001Vocab = [];
+  lesson.sections.forEach(section => {
+    section.slides.forEach(slide => {
+      if (slide.vocab) {
+        slide.vocab.forEach(aWord =>{
+          const pair = `${aWord.word}:${aWord.meaning}`
+          lesson001Vocab.push(pair)
+        })
+      }
+    })
+  })
+  return lesson001Vocab
+}
