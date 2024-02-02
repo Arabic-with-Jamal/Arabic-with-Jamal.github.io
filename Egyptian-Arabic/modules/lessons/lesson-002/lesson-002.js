@@ -1,8 +1,8 @@
 import { speaker1, speaker4, narrator } from "../lesson-001/lesson-001.js"
 
 export const lesson002 = {
-  chapter: 'Welcome to Egyptian Arabic',
-  title: 'Lesson Two',
+  chapter: 'Meeting and greeting',
+  title: 'there is a problem',
   sections: [
     {
       title: 'Introduction',
@@ -172,6 +172,49 @@ export const lesson002 = {
           type: 'vocabulary excersises',
           title: 'play',
           quizletUrl: "https://quizlet.com/878073234/match/embed?i=2zi8pz&x=1jj1",
+        },
+      ]
+    },
+    {
+      title: 'Grammar',
+      slides: [
+        {
+          type: 'section-intro',
+          imgURl:'./modules/lessons/lesson-001/images/001.png'
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `Some Egyptian words are easy to understand because they are international.
+          They are the same in other languages, and are hardly ever different in meaning from the
+          original.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `Some of these words are taxi, bank, and computer`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `Many of these words have Latin or Greek roots and were first adopted into
+          European languages before they spread around the world.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `These words, which exist in various languages and which have similar
+          meanings everywhere, are called international words.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-001/images/001.png',
+          description: `Many of them stem from English, like Computer. Others come from Arabic itself like Kaffee`
         },
       ]
     },

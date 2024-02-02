@@ -65,11 +65,10 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/006.png',
-          convo: 'كويس جدا الحمد لله. حضرتك عاملة ايه؟',
+          convo: 'كويس الحمد لله. حضرتك عاملة ايه؟',
           speaker: audiobook,
           vocab: [
             {word: 'كويس', meaning: 'good', url: '/audio1970771774_01.mp3'},
-            {word: 'جدا', meaning: 'very', url: '/audio1970771774_01.mp3'},
             {word: 'الحمد لله', meaning: 'thank god', url: '/audio1970771774_01.mp3'},
             {word: 'حضرتك', meaning: 'you (f, formal)', url: '/audio1970771774_01.mp3'},
             {word: 'عاملة ايه', meaning: 'how are you doing (f)', url: '/audio1970771774_01.mp3'},
@@ -133,11 +132,11 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/010.png',
-          convo: 'حلوة اوي',
+          convo: 'حلوة جدا',
           speaker: speaker4,
           vocab: [
             {word: 'حلوة', meaning: 'pretty', url: '/audio1970771774_01.mp3'},
-            {word: 'اوي', meaning: 'very', url: '/audio1970771774_01.mp3'},
+            {word: 'جدا', meaning: 'very', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
