@@ -36,7 +36,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/002.png',
           convo: 'اشوف وشك بخير',
-          speaker: speaker4,
+          speaker: 'man',
           vocab: [
             {word: 'اشوف', meaning: '{I} see', url: '/audio1970771774_03.mp3'},
             {word: 'وش', meaning: 'face', url: '/audio1970771774_03.mp3'},
@@ -47,7 +47,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/003.png',
           convo: 'سلام',
-          speaker: speaker4,
+          speaker: 'woman',
           vocab: [
             {word: 'سلام', meaning: 'Bye (informal)', url: '/audio1970771774_03.mp3'},
           ]
@@ -56,7 +56,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/004.png',
           convo: 'مع السلامة يا فندم',
-          speaker: 'man on phone',
+          speaker: 'woman',
           vocab: [
             {word: 'مع', meaning: 'with', url: '/audio1970771774_03.mp3'},
             {word: 'السلامة', meaning: 'safety', url: '/audio1970771774_03.mp3'},
@@ -68,7 +68,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/005.png',
           convo: 'مع الف سلامة',
-          speaker: 'man on phone',
+          speaker: 'man',
           vocab: [
             {word: 'الف', meaning: 'thousand', url: '/audio1970771774_01.mp3'},
           ]
@@ -77,7 +77,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/006.png',
           convo: 'فيه مشكلة ولا حاجة؟',
-          speaker: narrator,
+          speaker: speaker2,
           vocab: [
             {word: 'فيه', meaning: 'there is/are', url: '/audio1970771774_01.mp3'},
             {word: 'مشكلة', meaning: 'problem', url: '/audio1970771774_01.mp3'},
@@ -88,7 +88,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/007.png',
           convo: 'محتاج مساعدة؟',
-          speaker: speaker4,
+          speaker: speaker2,
           vocab: [
             {word: 'محتاج', meaning: 'need', url: '/audio1970771774_01.mp3'},
             {word: 'مساعدة', meaning: 'help', url: '/audio1970771774_01.mp3'},
@@ -98,7 +98,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/008.png',
           convo: 'ايوة محتاج مساعدة',
-          speaker: 'man',
+          speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -107,7 +107,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/009.png',
           convo: 'فين الشنطة',
-          speaker: 'taxi driver',
+          speaker: speaker4,
           vocab: [
             {word: 'فين', meaning: 'where', url: '/audio1970771774_01.mp3'},
           ]
@@ -116,7 +116,7 @@ export const lesson003 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/010.png',
           convo: 'الشنطة مع السلامة',
-          speaker: 'man',
+          speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -133,39 +133,37 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/012.png',
-          convo: 'استنا',
-          speaker: speaker1,
+          convo: 'شنطتك ضايعة؟',
+          speaker: speaker2,
           vocab: [
-            {word: 'استنا', meaning: 'wait', url: '/audio1970771774_01.mp3'},
+            {word: 'ضايعة', meaning: 'missing (f)', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/013.png',
-          convo: 'معلش؟ الشنطة؟',
-          speaker: speaker4,
+          convo: 'انت رايح فين؟',
+          speaker: speaker2,
           vocab: [
-            {word: 'معلش', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
+            {word: 'رايح', meaning: 'going', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/014.png',
-          convo: 'اه الشنطة جميلة',
-          speaker: speaker4,
+          convo: 'Getting something out of his pocket',
+          speaker: narrator,
           vocab: [
-            {word: 'اه', meaning: 'yes', url: '/audio1970771774_01.mp3'},
-            {word: 'جميلة', meaning: 'beautiful', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/015.png',
-          convo: 'دنيا تعالي هنا',
-          speaker: speaker2,
+          convo: 'shows them a picture of a woman',
+          speaker: narrator,
           vocab: [
-            {word: 'تعالي', meaning: 'come (f)', url: '/audio1970771774_01.mp3'},
-            {word: 'هنا', meaning: 'here', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
       ]
