@@ -13,7 +13,7 @@ export const lesson003 = {
           title: 'Introduction',
           intro: true,
           description: `With people coming and going and saying goodbye to each other around him,
-          ${speaker1} doesn’t know what he should do. Then ${speaker4} and her aunt ${speaker2} return and offer to help him.`
+          ${speaker1} does not know what he should do. Then ${speaker4} and her aunt ${speaker2} return and offer to help him.`
         },
         {
           type: 'intro',
@@ -35,88 +35,87 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/002.png',
-          convo: 'اهلا',
+          convo: 'اشوف وشك بخير',
           speaker: speaker4,
           vocab: [
-            {word: 'اهلا', meaning: 'welcome', url: '/audio1970771774_03.mp3'},
+            {word: 'اشوف', meaning: '{I} see', url: '/audio1970771774_03.mp3'},
+            {word: 'وش', meaning: 'face', url: '/audio1970771774_03.mp3'},
+            {word: 'ك', meaning: 'your', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/003.png',
-          convo: 'صعبة اوي',
+          convo: 'سلام',
           speaker: speaker4,
           vocab: [
-            {word: 'صعبة', meaning: 'hard', url: '/audio1970771774_03.mp3'},
+            {word: 'سلام', meaning: 'Bye (informal)', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/004.png',
-          convo: 'ايوة انا هناك ',
+          convo: 'مع السلامة يا فندم',
           speaker: 'man on phone',
           vocab: [
-            {word: 'هناك', meaning: 'there', url: '/audio1970771774_04.mp3'},
+            {word: 'مع', meaning: 'with', url: '/audio1970771774_03.mp3'},
+            {word: 'السلامة', meaning: 'safety', url: '/audio1970771774_03.mp3'},
+            {word: 'حبيبتي', meaning: 'my love', url: '/audio1970771774_03.mp3'},
+            {word: 'مع السلامة', meaning: 'goodbye (formal & informal)', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/005.png',
-          convo: ' سيب الورق في الفندق',
+          convo: 'مع الف سلامة',
           speaker: 'man on phone',
           vocab: [
-            {word: 'سيب', meaning: 'leave', url: '/audio1970771774_01.mp3'},
-            {word: 'ورق', meaning: 'paper', url: '/audio1970771774_01.mp3'},
-            {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
-            {word: 'فندق', meaning: 'hotel', url: '/audio1970771774_01.mp3'},
+            {word: 'الف', meaning: 'thousand', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/006.png',
-          convo: 'The taxi driver picking up the bags',
+          convo: 'فيه مشكلة ولا حاجة؟',
           speaker: narrator,
+          vocab: [
+            {word: 'فيه', meaning: 'there is/are', url: '/audio1970771774_01.mp3'},
+            {word: 'مشكلة', meaning: 'problem', url: '/audio1970771774_01.mp3'},
+            {word: 'حاجة', meaning: 'something', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-003/images/007.png',
+          convo: 'محتاج مساعدة؟',
+          speaker: speaker4,
+          vocab: [
+            {word: 'محتاج', meaning: 'need', url: '/audio1970771774_01.mp3'},
+            {word: 'مساعدة', meaning: 'help', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-003/images/008.png',
+          convo: 'ايوة محتاج مساعدة',
+          speaker: 'man',
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/007.png',
-          convo: 'جامدة اوي. تاني',
-          speaker: speaker4,
-          vocab: [
-            {word: 'جامدة', meaning: 'very cool', url: '/audio1970771774_01.mp3'},
-            {word: 'تاني', meaning: 'again', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/008.png',
-          convo: 'نص البلد لو سمحت عند سيسل',
-          speaker: 'man',
-          vocab: [
-            {word: 'نص', meaning: 'half', url: '/audio1970771774_01.mp3'},
-            {word: 'بلد', meaning: 'country', url: '/audio1970771774_01.mp3'},
-            {word: 'لو', meaning: 'if', url: '/audio1970771774_01.mp3'},
-            {word: 'سمحت', meaning: 'you please', url: '/audio1970771774_01.mp3'},
-            {word: 'عند', meaning: 'at', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/009.png',
-          convo: 'مطعم سيسل ولا فندق سيسل؟',
+          convo: 'فين الشنطة',
           speaker: 'taxi driver',
           vocab: [
-            {word: 'مطعم', meaning: 'restaurant', url: '/audio1970771774_01.mp3'},
-            {word: 'ولا', meaning: 'or', url: '/audio1970771774_01.mp3'},
+            {word: 'فين', meaning: 'where', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/010.png',
-          convo: 'مطعم سيسل',
+          convo: 'الشنطة مع السلامة',
           speaker: 'man',
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -125,10 +124,10 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/011.png',
-          convo: 'ايه ده؟',
+          convo: 'في التاكسي',
           speaker: speaker1,
           vocab: [
-            {word: 'ده', meaning: 'this (m)', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -142,7 +141,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-001/images/013.png',
+          imgURl: './modules/lessons/lesson-003/images/013.png',
           convo: 'معلش؟ الشنطة؟',
           speaker: speaker4,
           vocab: [
@@ -151,7 +150,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-001/images/014.png',
+          imgURl: './modules/lessons/lesson-003/images/014.png',
           convo: 'اه الشنطة جميلة',
           speaker: speaker4,
           vocab: [
@@ -161,7 +160,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-001/images/015.png',
+          imgURl: './modules/lessons/lesson-003/images/015.png',
           convo: 'دنيا تعالي هنا',
           speaker: speaker2,
           vocab: [
@@ -209,12 +208,12 @@ export const lesson003 = {
       slides: [
         {
           type: 'section-intro',
-          imgURl:'./modules/lessons/lesson-001/images/001.png'
+          imgURl:'./modules/lessons/lesson-003/images/001.png'
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `Some Egyptian words are easy to understand because they are international.
           They are the same in other languages, and are hardly ever different in meaning from the
           original.`
@@ -222,27 +221,27 @@ export const lesson003 = {
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `Some of these words are taxi, bank, and computer`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `Many of these words have Latin or Greek roots and were first adopted into
           European languages before they spread around the world.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `These words, which exist in various languages and which have similar
           meanings everywhere, are called international words.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-001/images/001.png',
+          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `Many of them stem from English, like Computer. Others come from Arabic itself like Kaffee`
         },
       ]
