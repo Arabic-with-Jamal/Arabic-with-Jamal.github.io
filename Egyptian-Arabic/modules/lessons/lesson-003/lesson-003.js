@@ -177,27 +177,27 @@ export const lesson003 = {
         {
           type: 'vocabulary excersises',
           title: 'flash cards',
-          quizletUrl: "https://quizlet.com/878073234/flashcards/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/880245580/flashcards/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'Learn',
-          quizletUrl: "https://quizlet.com/878073234/learn/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/880245580/learn/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'Spell',
-          quizletUrl: "https://quizlet.com/878073234/write/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/880245580/write/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'test',
-          quizletUrl: "https://quizlet.com/878073234/test/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/880245580/test/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'play',
-          quizletUrl: "https://quizlet.com/878073234/match/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/880245580/match/embed?i=2zi8pz&x=1jj1",
         },
       ]
     },
@@ -212,15 +212,14 @@ export const lesson003 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-003/images/001.png',
-          description: `Some Egyptian words are easy to understand because they are international.
-          They are the same in other languages, and are hardly ever different in meaning from the
-          original.`
+          description: `The informal expression for saying goodbye "Salam" is widely used with friends.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-003/images/001.png',
-          description: `Some of these words are taxi, bank, and computer`
+          description: `The formal expression for saying goodbye is used with unfamiliar adults,
+          in business situations, with officials, and when shopping.`
         },
         {
           type: 'grammar',
@@ -233,14 +232,15 @@ export const lesson003 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-003/images/001.png',
-          description: `These words, which exist in various languages and which have similar
-          meanings everywhere, are called international words.`
+          description: `When you say farewell or goodbye in a formal way, you can also shake hands,
+          just as you might when you greet someone.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-003/images/001.png',
-          description: `Many of them stem from English, like Computer. Others come from Arabic itself like Kaffee`
+          description: `You might want to be careful when shaking hands with the opposite sex.
+          Many people would not mind, but some would`
         },
       ]
     },
