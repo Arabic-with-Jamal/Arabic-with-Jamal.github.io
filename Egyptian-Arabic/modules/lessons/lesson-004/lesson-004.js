@@ -1,30 +1,31 @@
 import { speaker1, speaker2, speaker4, narrator, audiobook } from "../lesson-001/lesson-001.js"
 
-export const lesson003 = {
+export const lesson004 = {
   chapter: 'Meeting and greeting',
-  title: 'Goodbye',
+  title: 'My name',
   sections: [
     {
       title: 'Introduction',
       slides: [
         {
           type: 'intro',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           title: 'Introduction',
           intro: true,
-          description: `With people coming and going and saying goodbye to each other around him,
-          ${speaker1} does not know what he should do. Then ${speaker4} and her aunt ${speaker2} return and offer to help him.`
+          description: `${speaker2} and ${speaker4} hear from ${speaker1} why he has come to Egypt, and they give him
+          a ride into town. In the car, ${speaker4} arranges alphabet cookies to form her name and teaches
+          ${speaker1} how to introduce himself in Arabic.`
         },
         {
           type: 'intro',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           title: 'Introduction',
           intro: true,
           description: 'In this lesson you will learn:',
           goals: [
-            '1- different ways to say goodbye',
-            "2- to distinguish between formal and informal ways of saying goodbye",
-            '3- to conduct short conversations',
+            '1- the Arabic alphabet',
+            "2- to spell words in Arabic",
+            '3- to ask for additional information and to ask people to repeat what they said ',
           ],
         }
       ]
@@ -34,7 +35,7 @@ export const lesson003 = {
       slides: [
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/002.png',
+          imgURl: './modules/lessons/lesson-004/images/002.png',
           convo: 'اشوف وشك بخير',
           speaker: 'man',
           vocab: [
@@ -45,7 +46,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/003.png',
+          imgURl: './modules/lessons/lesson-004/images/003.png',
           convo: 'سلام',
           speaker: 'woman',
           vocab: [
@@ -54,7 +55,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/004.png',
+          imgURl: './modules/lessons/lesson-004/images/004.png',
           convo: 'مع السلامة يا فندم',
           speaker: 'woman',
           vocab: [
@@ -66,7 +67,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/005.png',
+          imgURl: './modules/lessons/lesson-004/images/005.png',
           convo: 'مع الف سلامة',
           speaker: 'man',
           vocab: [
@@ -75,7 +76,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/006.png',
+          imgURl: './modules/lessons/lesson-004/images/006.png',
           convo: 'فيه مشكلة ولا حاجة؟',
           speaker: speaker2,
           vocab: [
@@ -86,7 +87,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/007.png',
+          imgURl: './modules/lessons/lesson-004/images/007.png',
           convo: 'محتاج مساعدة؟',
           speaker: speaker2,
           vocab: [
@@ -96,7 +97,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/008.png',
+          imgURl: './modules/lessons/lesson-004/images/008.png',
           convo: 'ايوة محتاج مساعدة',
           speaker: speaker1,
           vocab: [
@@ -105,7 +106,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/009.png',
+          imgURl: './modules/lessons/lesson-004/images/009.png',
           convo: 'فين الشنطة',
           speaker: speaker4,
           vocab: [
@@ -114,7 +115,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/010.png',
+          imgURl: './modules/lessons/lesson-004/images/010.png',
           convo: 'الشنطة مع السلامة',
           speaker: speaker1,
           vocab: [
@@ -123,7 +124,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/011.png',
+          imgURl: './modules/lessons/lesson-004/images/011.png',
           convo: 'في التاكسي',
           speaker: speaker1,
           vocab: [
@@ -132,7 +133,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/012.png',
+          imgURl: './modules/lessons/lesson-004/images/012.png',
           convo: 'شنطتك ضايعة؟',
           speaker: speaker2,
           vocab: [
@@ -141,7 +142,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/013.png',
+          imgURl: './modules/lessons/lesson-004/images/013.png',
           convo: 'انت رايح فين؟',
           speaker: speaker2,
           vocab: [
@@ -150,7 +151,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/014.png',
+          imgURl: './modules/lessons/lesson-004/images/014.png',
           convo: 'Getting something out of his pocket',
           speaker: narrator,
           vocab: [
@@ -159,7 +160,7 @@ export const lesson003 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-003/images/015.png',
+          imgURl: './modules/lessons/lesson-004/images/015.png',
           convo: 'shows them a picture of a woman',
           speaker: narrator,
           vocab: [
@@ -206,39 +207,39 @@ export const lesson003 = {
       slides: [
         {
           type: 'section-intro',
-          imgURl:'./modules/lessons/lesson-003/images/001.png'
+          imgURl:'./modules/lessons/lesson-004/images/001.png'
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `The informal expression for saying goodbye "Salam" is widely used with friends.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `The formal expression for saying goodbye is used with unfamiliar adults,
           in business situations, with officials, and when shopping.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `Many of these words have Latin or Greek roots and were first adopted into
           European languages before they spread around the world.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `When you say farewell or goodbye in a formal way, you can also shake hands,
           just as you might when you greet someone.`
         },
         {
           type: 'grammar',
           title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
+          imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `You might want to be careful when shaking hands with the opposite sex.
           Many people would not mind, but some would`
         },
