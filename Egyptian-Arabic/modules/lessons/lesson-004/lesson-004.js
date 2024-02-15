@@ -73,7 +73,7 @@ export const lesson004 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/006.png',
           convo: 'خالتي',
-          speaker: speaker2,
+          speaker: speaker1,
           vocab: [
             {word: 'خالة', meaning: 'aunt (mother side)', url: '/audio1970771774_01.mp3'},
           ]
@@ -81,36 +81,36 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/007.png',
-          convo: 'محتاج مساعدة؟',
-          speaker: speaker2,
-          vocab: [
-            {word: 'محتاج', meaning: 'need', url: '/audio1970771774_01.mp3'},
-            {word: 'مساعدة', meaning: 'help', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-004/images/008.png',
-          convo: 'ايوة محتاج مساعدة',
-          speaker: speaker1,
+          convo: 'خالتك؟',
+          speaker: speaker4,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-004/images/009.png',
-          convo: 'فين الشنطة',
+          imgURl: './modules/lessons/lesson-004/images/008.png',
+          convo: 'مستحيل',
           speaker: speaker4,
           vocab: [
-            {word: 'فين', meaning: 'where', url: '/audio1970771774_01.mp3'},
+            {word: 'مستحيل', meaning: 'impossible', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-004/images/009.png',
+          convo: 'بس مالناش دعوة',
+          speaker: speaker2,
+          vocab: [
+            {word: 'بس', meaning: 'enough, stop', url: '/audio1970771774_01.mp3'},
+            {word: 'مالناش دعوة', meaning: 'not our bussines', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/010.png',
-          convo: 'الشنطة مع السلامة',
-          speaker: speaker1,
+          convo: 'انت عايز تروح لخالتك؟',
+          speaker: speaker2,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]

@@ -60,7 +60,7 @@ export const lesson003 = {
           vocab: [
             {word: 'مع', meaning: 'with', url: '/audio1970771774_03.mp3'},
             {word: 'السلامة', meaning: 'safety', url: '/audio1970771774_03.mp3'},
-            {word: 'حبيبتي', meaning: 'my love', url: '/audio1970771774_03.mp3'},
+            {word: 'فندم', meaning: "sir/ma'am", url: '/audio1970771774_03.mp3'},
             {word: 'مع السلامة', meaning: 'goodbye (formal & informal)', url: '/audio1970771774_03.mp3'},
           ]
         },
