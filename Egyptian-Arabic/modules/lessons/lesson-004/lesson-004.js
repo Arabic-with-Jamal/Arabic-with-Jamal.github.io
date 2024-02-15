@@ -112,34 +112,37 @@ export const lesson004 = {
           convo: 'انت عايز تروح لخالتك؟',
           speaker: speaker2,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'عايز', meaning: 'want', url: '/audio1970771774_01.mp3'},
+            {word: 'تروح', meaning: 'to go', url: '/audio1970771774_01.mp3'},
+            {word: 'ل', meaning: 'to', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/011.png',
-          convo: 'في التاكسي',
-          speaker: speaker1,
+          convo: 'العنوان معاك؟',
+          speaker: speaker2,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'عنوان', meaning: 'adress', url: '/audio1970771774_01.mp3'},
+            {word: 'معاك', meaning: 'with you', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/012.png',
-          convo: 'شنطتك ضايعة؟',
+          convo: 'انت فاهم؟',
           speaker: speaker2,
           vocab: [
-            {word: 'ضايعة', meaning: 'missing (f)', url: '/audio1970771774_01.mp3'},
+            {word: 'فاهم', meaning: 'understand', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/013.png',
-          convo: 'انت رايح فين؟',
-          speaker: speaker2,
+          convo: 'انا مش فاهم',
+          speaker: speaker1,
           vocab: [
-            {word: 'رايح', meaning: 'going', url: '/audio1970771774_01.mp3'},
+            {word: 'مش', meaning: 'not', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -154,10 +157,12 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/015.png',
-          convo: 'shows them a picture of a woman',
+          convo: 'متيجي نساعده',
           speaker: narrator,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'متيجي', meaning: "why don't we", url: '/audio1970771774_01.mp3'},
+            {word: 'نساعد', meaning: '{we} help', url: '/audio1970771774_01.mp3'},
+            {word: 'ه', meaning: 'him', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
