@@ -106,7 +106,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/009.png',
-          convo: 'فين الشنطة',
+          convo: 'فين الشنطة؟',
           speaker: speaker4,
           vocab: [
             {word: 'فين', meaning: 'where', url: '/audio1970771774_01.mp3'},
