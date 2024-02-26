@@ -168,19 +168,22 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/016.png',
-          convo: 'لا مؤاخذة',
+          convo: 'المفروض نعمل كدة',
           speaker: speaker2,
           vocab: [
-            {word: 'لا مؤاخذة', meaning: 'excuse me', url: '/audio1970771774_01.mp3'},
+            {word: 'المفروض', meaning: 'and', url: '/audio1970771774_01.mp3'},
+            {word: 'نعمل', meaning: 'and', url: '/audio1970771774_01.mp3'},
+            {word: 'كدة', meaning: 'like this', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/017.png',
-          convo: 'لو سمحتي',
+          convo: 'ماشي امرنا لله',
           speaker: speaker1,
           vocab: [
-            {word: 'لو سمحتي', meaning: 'please (f)', url: '/audio1970771774_01.mp3'},
+            {word: 'ماشي', meaning: 'ok', url: '/audio1970771774_01.mp3'},
+            {word: 'امر', meaning: 'ok', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
