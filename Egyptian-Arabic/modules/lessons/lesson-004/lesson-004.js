@@ -1,4 +1,4 @@
-import { speaker1, speaker2, speaker4, narrator, audiobook } from "../lesson-001/lesson-001.js"
+import { speaker1, speaker2, speaker4, narrator, audiobook, arabSpeaker4, arabSpeaker1} from "../lesson-001/lesson-001.js"
 
 export const lesson004 = {
   chapter: 'Meeting and greeting',
@@ -46,7 +46,7 @@ export const lesson004 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/003.png',
           convo: 'دي يارا',
-          speaker: 'man',
+          speaker: speaker1,
           vocab: [
             {word: 'دي', meaning: 'this (f)', url: '/audio1970771774_03.mp3'},
           ]
@@ -99,7 +99,7 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/009.png',
-          convo: 'بس مالناش دعوة',
+          convo: 'بس، مالناش دعوة',
           speaker: speaker2,
           vocab: [
             {word: 'بس', meaning: 'enough, stop', url: '/audio1970771774_01.mp3'},
@@ -148,17 +148,8 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/014.png',
-          convo: 'Getting something out of his pocket',
-          speaker: narrator,
-          vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-004/images/015.png',
           convo: 'متيجي نساعده',
-          speaker: narrator,
+          speaker: speaker4,
           vocab: [
             {word: 'متيجي', meaning: "why don't we", url: '/audio1970771774_01.mp3'},
             {word: 'نساعد', meaning: '{we} help', url: '/audio1970771774_01.mp3'},
@@ -167,108 +158,138 @@ export const lesson004 = {
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-004/images/016.png',
+          imgURl: './modules/lessons/lesson-004/images/015.png',
           convo: 'المفروض نعمل كدة',
           speaker: speaker2,
           vocab: [
-            {word: 'المفروض', meaning: 'and', url: '/audio1970771774_01.mp3'},
-            {word: 'نعمل', meaning: 'and', url: '/audio1970771774_01.mp3'},
+            {word: 'المفروض', meaning: 'supposed to', url: '/audio1970771774_01.mp3'},
+            {word: 'نعمل', meaning: 'do', url: '/audio1970771774_01.mp3'},
             {word: 'كدة', meaning: 'like this', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
-          imgURl: './modules/lessons/lesson-004/images/017.png',
-          convo: 'ماشي امرنا لله',
-          speaker: speaker1,
+          imgURl: './modules/lessons/lesson-004/images/016.png',
+          convo: 'ماشي تعالي نشوف ممكن نعمل ايه',
+          speaker: speaker2,
           vocab: [
             {word: 'ماشي', meaning: 'ok', url: '/audio1970771774_01.mp3'},
-            {word: 'امر', meaning: 'ok', url: '/audio1970771774_01.mp3'},
+            {word: 'تعالي', meaning: "let's", url: '/audio1970771774_01.mp3'},
+            {word: 'نشوف', meaning: 'see', url: '/audio1970771774_01.mp3'},
+            {word: 'ممكن', meaning: 'possible', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-004/images/017.png',
+          convo: 'تعالى معانا نوصلك',
+          speaker: speaker2,
+          vocab: [
+            {word: 'معانا', meaning: 'with us', url: '/audio1970771774_01.mp3'},
+            {word: 'نوصلك', meaning: 'take you there', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/018.png',
-          convo: 'شارع السلام في العجمي',
-          speaker: speaker1,
+          convo: 'يلا بينا',
+          speaker: speaker4,
           vocab: [
-            {word: 'شارع', meaning: 'street', url: '/audio1970771774_01.mp3'},
-            {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
+            {word: 'يلا بينا', meaning: "let's go", url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/019.png',
-          convo: 'confused look',
-          speaker: narrator,
+          convo: `انا اسمي ${arabSpeaker4}`,
+          speaker: speaker4,
+          vocab: [
+            {word: 'اسمي', meaning: 'my name is', url: '/audio1970771774_01.mp3'},
+          ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/020.png',
-          convo: 'لا مؤاخذة',
-          speaker: speaker2,
+          convo: `ودي عمتي`,
+          speaker: speaker4,
           vocab: [
-            {word: 'لا مؤاخذة', meaning: 'excuse me', url: '/audio1970771774_01.mp3'},
+            {word: 'و', meaning: 'and', url: '/audio1970771774_01.mp3'},
+            {word: 'عمة', meaning: 'aunt (father side)', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/021.png',
-          convo: 'لو سمحتي',
+          convo: 'امك؟',
           speaker: speaker1,
           vocab: [
-            {word: 'لو سمحتي', meaning: 'please (f)', url: '/audio1970771774_01.mp3'},
+            {word: 'ام', meaning: 'mother', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/022.png',
-          convo: 'شارع السلام في العجمي',
-          speaker: speaker1,
+          convo: 'لا مش امي، عمتي',
+          speaker: speaker4,
           vocab: [
-            {word: 'شارع', meaning: 'street', url: '/audio1970771774_01.mp3'},
-            {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
+            {word: 'لا', meaning: 'no', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/023.png',
-          convo: 'confused look',
-          speaker: narrator,
+          convo: 'خد شوية شيبسي',
+          speaker: speaker4,
+          vocab: [
+            {word: 'خد', meaning: 'take (informal)', url: '/audio1970771774_01.mp3'},
+            {word: 'شوية', meaning: 'some/little', url: '/audio1970771774_01.mp3'},
+            {word: 'شيبسي', meaning: 'chips', url: '/audio1970771774_01.mp3'},
+          ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/024.png',
-          convo: 'لا مؤاخذة',
-          speaker: speaker2,
+          convo: 'شكرا',
+          speaker: speaker1,
           vocab: [
-            {word: 'لا مؤاخذة', meaning: 'excuse me', url: '/audio1970771774_01.mp3'},
+            {word: 'شكرا', meaning: 'thanks', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/025.png',
-          convo: 'لو سمحتي',
-          speaker: speaker1,
+          convo: 'عفوا',
+          speaker: speaker4,
           vocab: [
-            {word: 'لو سمحتي', meaning: 'please (f)', url: '/audio1970771774_01.mp3'},
+            {word: 'عفوا', meaning: 'you are welcome', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/026.png',
-          convo: 'شارع السلام في العجمي',
+          convo: `انا اسمي ${arabSpeaker1}`,
           speaker: speaker1,
           vocab: [
-            {word: 'شارع', meaning: 'street', url: '/audio1970771774_01.mp3'},
-            {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/027.png',
-          convo: 'confused look',
-          speaker: narrator,
+          convo: `اهلا ${arabSpeaker1}`,
+          speaker: speaker4,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-004/images/028.png',
+          convo: `اهلا ${arabSpeaker4}`,
+          speaker: speaker1,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
         },
       ]
     },
