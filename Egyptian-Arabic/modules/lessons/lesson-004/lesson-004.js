@@ -302,27 +302,27 @@ export const lesson004 = {
         {
           type: 'vocabulary excersises',
           title: 'flash cards',
-          quizletUrl: "https://quizlet.com/880245580/flashcards/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/893648898/flashcards/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'Learn',
-          quizletUrl: "https://quizlet.com/880245580/learn/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/893648898/learn/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'Spell',
-          quizletUrl: "https://quizlet.com/880245580/write/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/893648898/write/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'test',
-          quizletUrl: "https://quizlet.com/880245580/test/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/893648898/test/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary excersises',
           title: 'play',
-          quizletUrl: "https://quizlet.com/880245580/match/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/893648898/match/embed?i=2zi8pz&x=1jj1",
         },
       ]
     },

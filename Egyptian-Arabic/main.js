@@ -1,7 +1,7 @@
 import lessons from "./modules/lessons.js";
 import { createAnElement, playSound, quizletMaker } from "./modules/utilties.js";
 
-console.log(quizletMaker(lessons[2]))
+console.log(quizletMaker(lessons[3]))
 const container = document.querySelector('.container');
 const links = document.querySelector('.dropdown-content');
 let activeLesson = null;
@@ -89,9 +89,7 @@ lessons.forEach(lesson => {
         case 'vocabulary excersises':
           const quizletElement = createAnElement('iframe', slideElement, 'quizlet');
           quizletElement.setAttribute('src', slide.quizletUrl);
-          console.log('sdsds')
         default:
-          console.log("Unknown type");
       }
     })
   })
