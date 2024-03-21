@@ -182,11 +182,11 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-004/images/017.png',
-          convo: 'تعالى معانا نوصلك',
+          convo: 'تعالى ناخدك معانا',
           speaker: speaker2,
           vocab: [
             {word: 'معانا', meaning: 'with us', url: '/audio1970771774_01.mp3'},
-            {word: 'نوصلك', meaning: 'take you there', url: '/audio1970771774_01.mp3'},
+            {word: 'ناخد', meaning: 'we take', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
