@@ -1,1 +1,1 @@
-#  Full Arabic and Quran learning website
+#  Full Arabic and Quran learning website For non native speakers
