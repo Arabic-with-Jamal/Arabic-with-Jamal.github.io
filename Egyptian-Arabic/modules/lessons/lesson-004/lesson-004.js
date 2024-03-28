@@ -337,21 +337,21 @@ export const lesson004 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
-          description: `The informal expression for saying goodbye "Salam" is widely used with friends.`
+          description: `The possesive adjective (my) in Egyptian Arabic is achived by adding
+          letter ya (ي) at the end of the noun`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
-          description: `The formal expression for saying goodbye is used with unfamiliar adults,
-          in business situations, with officials, and when shopping.`
+          description: `For example: Ism (اسم) = name, becomes: ismi (اسمي) = my name`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
           description: `Many of these words have Latin or Greek roots and were first adopted into
-          European languages before they spread around the world.`
+          European languages be fore they spread around the world.`
         },
         {
           type: 'grammar',
