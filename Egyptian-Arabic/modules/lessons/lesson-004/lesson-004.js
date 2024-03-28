@@ -350,8 +350,7 @@ export const lesson004 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
-          description: `Many of these words have Latin or Greek roots and were first adopted into
-          European languages be fore they spread around the world.`
+          description: `Umm (ام) = mother, becomes: ummi (امي) = my mom`
         },
         {
           type: 'grammar',
