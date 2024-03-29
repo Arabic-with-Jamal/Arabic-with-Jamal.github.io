@@ -356,8 +356,7 @@ export const lesson004 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
-          description: `When you say farewell or goodbye in a formal way, you can also shake hands,
-          just as you might when you greet someone.`
+          description: `Can you guess what ()`
         },
         {
           type: 'grammar',
