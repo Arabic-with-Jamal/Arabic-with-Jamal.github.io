@@ -356,7 +356,7 @@ export const lesson004 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-004/images/001.png',
-          description: `Can you guess what ()`
+          description: `Can you guess what (my teacher) would be in Arabic?`
         },
         {
           type: 'grammar',
