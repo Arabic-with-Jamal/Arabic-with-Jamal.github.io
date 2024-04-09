@@ -127,19 +127,22 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/012.png',
-          convo: 'انت فاهم؟',
+          convo: 'معلش لحظة واحدة',
           speaker: speaker2,
           vocab: [
-            {word: 'فاهم', meaning: 'understand', url: '/audio1970771774_01.mp3'},
+            {word: 'لحظة', meaning: 'moment', url: '/audio1970771774_01.mp3'},
+            {word: 'واحدة', meaning: 'one (f)', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/013.png',
-          convo: 'انا مش فاهم',
+          convo: 'محتاجة احط بنزين بسرعة',
           speaker: speaker1,
           vocab: [
-            {word: 'مش', meaning: 'not', url: '/audio1970771774_01.mp3'},
+            {word: 'احط', meaning: 'I put', url: '/audio1970771774_01.mp3'},
+            {word: 'بنزين', meaning: 'car feul', url: '/audio1970771774_01.mp3'},
+            {word: 'بسرعة', meaning: 'quickly', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
