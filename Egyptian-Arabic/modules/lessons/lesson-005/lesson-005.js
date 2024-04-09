@@ -1,8 +1,8 @@
-import { speaker1, speaker2, speaker4, narrator, audiobook, arabSpeaker4, arabSpeaker1} from "../lesson-001/lesson-001.js"
+import { speaker1, speaker2, speaker4, narrator, audiobook, arabSpeaker4, arabSpeaker1, arabSpeaker2} from "../lesson-001/lesson-001.js"
 
-export const lesson004 = {
-  chapter: 'Meeting and greeting',
-  title: 'My name is',
+export const lesson005 = {
+  chapter: 'Meeting people',
+  title: 'What is your name?',
   sections: [
     {
       title: 'Introduction',
@@ -36,7 +36,7 @@ export const lesson004 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/002.png',
-          convo: `${speaker1} showing them the picture`,
+          convo: `انا اسمي ${arabSpeaker2} `,
           speaker: narrator,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},

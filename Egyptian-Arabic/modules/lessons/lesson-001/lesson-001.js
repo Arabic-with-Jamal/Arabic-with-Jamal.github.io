@@ -3,8 +3,9 @@ export const speaker1 = 'Tom';
 export const speaker2 = 'Asmaa';
 export const speaker4 = 'Donia';
 export const narrator = 'Narrator';
-export const arabSpeaker4 = 'دنيا';
 export const arabSpeaker1 = 'توم';
+export const arabSpeaker2 = 'اسماء';
+export const arabSpeaker4 = 'دنيا';
 
 
 export const lesson001 = {
