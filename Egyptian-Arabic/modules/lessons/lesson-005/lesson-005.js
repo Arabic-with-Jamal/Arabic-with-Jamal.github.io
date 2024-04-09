@@ -23,9 +23,9 @@ export const lesson004 = {
           intro: true,
           description: 'In this lesson you will learn:',
           goals: [
-            '1- tp say your name',
-            "2- tsdsdsd",
-            '3- to ask for additional information and to ask people to repeat what they said ',
+            '1- to say what your name is',
+            '2- to ask others what their names are',
+            '3- to learn the two forms of Egyptian verbs'
           ],
         }
       ]
