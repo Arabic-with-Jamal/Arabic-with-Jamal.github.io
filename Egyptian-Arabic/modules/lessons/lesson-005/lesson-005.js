@@ -36,7 +36,7 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/002.png',
-          convo: `انا اسمي ${arabSpeaker2} `,
+          convo: `انا اسمي ${arabSpeaker1} `,
           speaker: narrator,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -45,19 +45,20 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/003.png',
-          convo: 'دي يارا',
+          convo: `مسا مسا يا ${arabSpeaker1}`,
           speaker: speaker1,
           vocab: [
-            {word: 'دي', meaning: 'this (f)', url: '/audio1970771774_03.mp3'},
+            {word: 'مسا', meaning: 'evening', url: '/audio1970771774_03.mp3'},
+            {word: 'مسا مسا', meaning: 'slang greeting', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/004.png',
-          convo: 'يارا مين؟',
+          convo: 'مسا مسا يا ظريفة',
           speaker: speaker2,
           vocab: [
-            {word: 'مين', meaning: 'who', url: '/audio1970771774_03.mp3'},
+            {word: 'ظريفة', meaning: 'funny', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
