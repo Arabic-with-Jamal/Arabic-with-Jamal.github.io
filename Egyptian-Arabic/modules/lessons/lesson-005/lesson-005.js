@@ -64,7 +64,7 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/005.png',
-          convo: `${speaker1} trying hard to speak Arabic`,
+          convo: `وانت اسمك ايه؟`,
           speaker: narrator,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -73,16 +73,16 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/006.png',
-          convo: 'خالتي',
+          convo: `انا اسمي ${arabSpeaker1}`,
           speaker: speaker1,
           vocab: [
-            {word: 'خالة', meaning: 'aunt (mother side)', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/007.png',
-          convo: 'خالتك؟',
+          convo: 'وانتي اسمك ايه؟',
           speaker: speaker4,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -91,7 +91,7 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/008.png',
-          convo: 'مستحيل',
+          convo: `انا اسمي ${arabSpeaker2}`,
           speaker: speaker4,
           vocab: [
             {word: 'مستحيل', meaning: 'impossible', url: '/audio1970771774_01.mp3'},
@@ -100,32 +100,28 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/009.png',
-          convo: 'بس، مالناش دعوة',
+          convo: `غلط، انتي اسمك ${arabSpeaker1}`,
           speaker: speaker2,
           vocab: [
-            {word: 'بس', meaning: 'enough, stop', url: '/audio1970771774_01.mp3'},
-            {word: 'مالناش دعوة', meaning: 'not our bussines', url: '/audio1970771774_01.mp3'},
+            {word: 'غلط', meaning: 'wrong', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/010.png',
-          convo: 'انت عايز تروح لخالتك؟',
+          convo: `دي ${arabSpeaker4}`,
           speaker: speaker2,
           vocab: [
-            {word: 'عايز', meaning: 'want', url: '/audio1970771774_01.mp3'},
-            {word: 'تروح', meaning: 'to go', url: '/audio1970771774_01.mp3'},
-            {word: 'ل', meaning: 'to', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/011.png',
-          convo: 'العنوان معاك؟',
+          convo: 'هي مجنونة شوية',
           speaker: speaker2,
           vocab: [
-            {word: 'عنوان', meaning: 'adress', url: '/audio1970771774_01.mp3'},
-            {word: 'معاك', meaning: 'with you', url: '/audio1970771774_01.mp3'},
+            {word: 'مجنونة', meaning: 'crazy (f)', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
