@@ -24,8 +24,7 @@ export const lesson004 = {
           description: 'In this lesson you will learn:',
           goals: [
             '1- tp say your name',
-            "2- tsdsdsd",
-            '3- to ask for additional information and to ask people to repeat what they said ',
+            '2- to ask for additional information and to ask people to repeat what they said ',
           ],
         }
       ]
