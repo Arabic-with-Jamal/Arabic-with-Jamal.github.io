@@ -148,12 +148,13 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/014.png',
-          convo: 'متيجي نساعده',
+          convo: 'نفس السواق بتاع المطار',
           speaker: speaker4,
           vocab: [
-            {word: 'متيجي', meaning: "why don't we", url: '/audio1970771774_01.mp3'},
-            {word: 'نساعد', meaning: '{we} help', url: '/audio1970771774_01.mp3'},
-            {word: 'ه', meaning: 'him', url: '/audio1970771774_01.mp3'},
+            {word: 'نفس', meaning: "same", url: '/audio1970771774_01.mp3'},
+            {word: 'سواق', meaning: 'driver', url: '/audio1970771774_01.mp3'},
+            {word: 'بتاع', meaning: 'of', url: '/audio1970771774_01.mp3'},
+            {word: 'مطار', meaning: 'airport', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
