@@ -169,23 +169,20 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/016.png',
-          convo: 'ماشي تعالي نشوف ممكن نعمل ايه',
+          convo: `${arabSpeaker1} بيجري على العربية`,
           speaker: speaker2,
           vocab: [
-            {word: 'ماشي', meaning: 'ok', url: '/audio1970771774_01.mp3'},
-            {word: 'تعالي', meaning: "let's", url: '/audio1970771774_01.mp3'},
-            {word: 'نشوف', meaning: 'see', url: '/audio1970771774_01.mp3'},
-            {word: 'ممكن', meaning: 'possible', url: '/audio1970771774_01.mp3'},
+            {word: 'بيجري', meaning: 'is running', url: '/audio1970771774_01.mp3'},
+            {word: 'عربية', meaning: 'car', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/017.png',
-          convo: 'تعالى ناخدك معانا',
+          convo: `${arabSpeaker1} بيكلم السواق`,
           speaker: speaker2,
           vocab: [
-            {word: 'معانا', meaning: 'with us', url: '/audio1970771774_01.mp3'},
-            {word: 'ناخد', meaning: 'we take', url: '/audio1970771774_01.mp3'},
+            {word: 'بيكلم', meaning: 'talking to', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
