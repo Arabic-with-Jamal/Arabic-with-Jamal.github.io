@@ -160,12 +160,10 @@ export const lesson005 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/015.png',
-          convo: 'المفروض نعمل كدة',
+          convo: `${arabSpeaker1} بينادي على السواق`,
           speaker: speaker2,
           vocab: [
-            {word: 'المفروض', meaning: 'supposed to', url: '/audio1970771774_01.mp3'},
-            {word: 'نعمل', meaning: 'do', url: '/audio1970771774_01.mp3'},
-            {word: 'كدة', meaning: 'like this', url: '/audio1970771774_01.mp3'},
+            {word: 'بينادي', meaning: 'is calling', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
