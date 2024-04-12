@@ -37,7 +37,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/002.png',
           convo: `انا اسمي ${arabSpeaker1} `,
-          speaker: narrator,
+          speaker: speaker2,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -46,7 +46,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/003.png',
           convo: `مسا مسا يا ${arabSpeaker1}`,
-          speaker: speaker1,
+          speaker: speaker4,
           vocab: [
             {word: 'مسا', meaning: 'evening', url: '/audio1970771774_03.mp3'},
             {word: 'مسا مسا', meaning: 'slang greeting', url: '/audio1970771774_03.mp3'},
@@ -65,7 +65,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/005.png',
           convo: `وانت اسمك ايه؟`,
-          speaker: narrator,
+          speaker: speaker2,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -83,7 +83,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/007.png',
           convo: 'وانتي اسمك ايه؟',
-          speaker: speaker4,
+          speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
@@ -92,7 +92,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/008.png',
           convo: `انا اسمي ${arabSpeaker2}`,
-          speaker: speaker4,
+          speaker: speaker2,
           vocab: [
             {word: 'مستحيل', meaning: 'impossible', url: '/audio1970771774_01.mp3'},
           ]
@@ -101,7 +101,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/009.png',
           convo: `غلط، انتي اسمك ${arabSpeaker1}`,
-          speaker: speaker2,
+          speaker: speaker4,
           vocab: [
             {word: 'غلط', meaning: 'wrong', url: '/audio1970771774_01.mp3'},
           ]
@@ -138,7 +138,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/013.png',
           convo: 'محتاجة احط بنزين بسرعة',
-          speaker: speaker1,
+          speaker: speaker2,
           vocab: [
             {word: 'احط', meaning: 'I put', url: '/audio1970771774_01.mp3'},
             {word: 'بنزين', meaning: 'car feul', url: '/audio1970771774_01.mp3'},
@@ -149,7 +149,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/014.png',
           convo: 'نفس السواق بتاع المطار',
-          speaker: speaker4,
+          speaker: narrator,
           vocab: [
             {word: 'نفس', meaning: "same", url: '/audio1970771774_01.mp3'},
             {word: 'سواق', meaning: 'driver', url: '/audio1970771774_01.mp3'},
@@ -161,7 +161,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/015.png',
           convo: `${arabSpeaker1} بينادي على السواق`,
-          speaker: speaker2,
+          speaker: narrator,
           vocab: [
             {word: 'بينادي', meaning: 'is calling', url: '/audio1970771774_01.mp3'},
           ]
@@ -170,7 +170,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/016.png',
           convo: `${arabSpeaker1} بيجري على العربية`,
-          speaker: speaker2,
+          speaker: narrator,
           vocab: [
             {word: 'بيجري', meaning: 'is running', url: '/audio1970771774_01.mp3'},
             {word: 'عربية', meaning: 'car', url: '/audio1970771774_01.mp3'},
@@ -180,7 +180,7 @@ export const lesson005 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-005/images/017.png',
           convo: `${arabSpeaker1} بيكلم السواق`,
-          speaker: speaker2,
+          speaker: narrator,
           vocab: [
             {word: 'بيكلم', meaning: 'talking to', url: '/audio1970771774_01.mp3'},
           ]
