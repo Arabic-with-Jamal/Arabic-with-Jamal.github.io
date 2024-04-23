@@ -45,7 +45,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/002.png',
-          convo: 'صباح الخير أستاذة ندى',
+          convo: 'صَبَاحِ الْخِيرْ أُسْتَاذَةْ نَدَى',
           speaker: audiobook,
           vocab: [
             {word: 'صباح', meaning: 'morning', url: '/audio1970771774_01.mp3'},
@@ -56,7 +56,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/003.png',
-          convo: 'صباح النور أستاذ أحمد.ازاي حضرتك',
+          convo: 'صَبَاحَ النُّورْ أُسْتَاذْ أَحْمَدْ.اِزَّايْ حَضْرِتَكْ',
           speaker: audiobook,
           vocab: [
             {word: 'النور', meaning: 'light', url: '/audio1970771774_01.mp3'},
@@ -68,7 +68,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/006.png',
-          convo: 'كويس، الحمد لله، حضرتك عاملة ايه؟',
+          convo: 'كُوَيِّسْ، الْحَمْدُ لِلَّهْ، حَضْرِتِكْ عَامْلَةْ اِيهْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'كويس', meaning: 'good', url: '/audio1970771774_01.mp3'},
@@ -80,7 +80,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/004.png',
-          convo: 'مساء الخير أستاذ طارق ازيك؟',
+          convo: 'مَسَاءِ الْخِيرْ أُسْتَاذْ طَارِقْ اِزَّيَّكْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'مساء', meaning: 'evening', url: '/audio1970771774_01.mp3'},
@@ -90,7 +90,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/005.png',
-          convo: 'مساء النور أستاذة رضوى.أنا بخير الحمد لله. انتي ازيك؟',
+          convo: 'مَسَاءِ النُّورْ أُسْتَاذَةْ رَضْوَى.أَنَا بِخِيرْ الْحَمْدُ لِلَّهْ. انْتيْ اِزَّيِّكْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'بخير', meaning: 'In good condition', url: '/audio1970771774_01.mp3'},
