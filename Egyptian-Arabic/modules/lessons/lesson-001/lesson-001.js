@@ -102,7 +102,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/007.png',
-          convo: 'ايه الاخبار يا صاحبي؟ كله تمام؟',
+          convo: 'اِيهْ الْاَخْبَارْ يَا صَاحْبِي؟ كُلُّهْ تَمَامْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'ايه', meaning: 'what', url: '/audio1970771774_01.mp3'},
@@ -117,7 +117,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/008.png',
-          convo: 'زي الفل يا صاحبي. انت عامل ايه؟',
+          convo: 'زَيِّ الْفُلْ يَا صَاحْبِي. اِنْتَ عَامِلِ ايهْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'زي', meaning: 'like', url: '/audio1970771774_01.mp3'},
@@ -135,7 +135,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/010.png',
-          convo: 'حلوة جدا',
+          convo: 'حِلْوَةْ جِدًّا',
           speaker: speaker4,
           vocab: [
             {word: 'حلوة', meaning: 'pretty', url: '/audio1970771774_01.mp3'},
@@ -145,7 +145,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/011.png',
-          convo: 'ايوة؟',
+          convo: 'اَيْوَةْ؟',
           speaker: speaker1,
           vocab: [
             {word: 'ايوة', meaning: 'yes', url: '/audio1970771774_01.mp3'},
@@ -154,7 +154,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/012.png',
-          convo: 'الشنطة حلوة',
+          convo: 'اِلشَّنْطَةْ حِلْوَةْ',
           speaker: speaker4,
           vocab: [
             {word: 'ال', meaning: 'the', url: '/audio1970771774_01.mp3'},
@@ -164,7 +164,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/013.png',
-          convo: 'معلش؟ الشنطة؟',
+          convo: 'مَعْلِشْ؟ اِلشَّنْطَةْ؟',
           speaker: speaker4,
           vocab: [
             {word: 'معلش', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
@@ -173,7 +173,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/014.png',
-          convo: 'اه الشنطة جميلة',
+          convo: 'اَهْ اِلشَّنْطَةْ جَمِيلَةْ',
           speaker: speaker4,
           vocab: [
             {word: 'اه', meaning: 'yes', url: '/audio1970771774_01.mp3'},
@@ -183,7 +183,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/015.png',
-          convo: 'دنيا تعالي هنا',
+          convo: 'دُنْيَا تَعَالِي هِنَا',
           speaker: speaker2,
           vocab: [
             {word: 'تعالي', meaning: 'come (f)', url: '/audio1970771774_01.mp3'},
@@ -193,7 +193,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/016.png',
-          convo: 'لا مؤاخذة',
+          convo: 'لاَ مُؤَاخْذَةْ',
           speaker: speaker2,
           vocab: [
             {word: 'لا مؤاخذة', meaning: 'excuse me', url: '/audio1970771774_01.mp3'},
@@ -202,7 +202,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/017.png',
-          convo: 'لو سمحتي',
+          convo: 'لَوْ سَمَحْتِيْ',
           speaker: speaker1,
           vocab: [
             {word: 'لو سمحتي', meaning: 'please (f)', url: '/audio1970771774_01.mp3'},
@@ -211,7 +211,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/018.png',
-          convo: 'شارع السلام في العجمي',
+          convo: 'شَارِعِ السَّلَامْ فِي الْعَجَمِي',
           speaker: speaker1,
           vocab: [
             {word: 'شارع', meaning: 'street', url: '/audio1970771774_01.mp3'},
