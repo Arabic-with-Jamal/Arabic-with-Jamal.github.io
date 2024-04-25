@@ -35,16 +35,16 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/002.png',
-          convo: 'اهلا',
+          convo: 'أَهْلًا',
           speaker: speaker4,
           vocab: [
-            {word: 'اهلا', meaning: 'welcome', url: '/audio1970771774_03.mp3'},
+            {word: 'أَهْلًا', meaning: 'welcome', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/003.png',
-          convo: 'صعبة اوي',
+          convo: 'صَعْبَةْ أَوِي',
           speaker: speaker4,
           vocab: [
             {word: 'صعبة', meaning: 'hard', url: '/audio1970771774_03.mp3'},
@@ -53,7 +53,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/004.png',
-          convo: 'ايوة انا هناك ',
+          convo: 'أَيْوَةْ أَنَا هِنَاكْ ',
           speaker: 'man on phone',
           vocab: [
             {word: 'هناك', meaning: 'there', url: '/audio1970771774_04.mp3'},
@@ -62,7 +62,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/005.png',
-          convo: ' سيب الورق في الفندق',
+          convo: ' سِيبْ الْوَرَقْ فِي الْفُنْدُقْ',
           speaker: 'man on phone',
           vocab: [
             {word: 'سيب', meaning: 'leave', url: '/audio1970771774_01.mp3'},
@@ -83,7 +83,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/007.png',
-          convo: 'جامدة اوي. تاني',
+          convo: 'جَامْدَةْ أَوِي. تَانِي',
           speaker: speaker4,
           vocab: [
             {word: 'جامدة', meaning: 'very cool', url: '/audio1970771774_01.mp3'},
@@ -93,7 +93,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/008.png',
-          convo: 'نص البلد لو سمحت عند سيسل',
+          convo: 'نُصِّ الْبَلَدْ لَوْ سَمَحْتْ عَنْدْ سِيسِلْ',
           speaker: 'man',
           vocab: [
             {word: 'نص', meaning: 'half', url: '/audio1970771774_01.mp3'},
@@ -106,7 +106,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/009.png',
-          convo: 'مطعم سيسل ولا فندق سيسل؟',
+          convo: 'مَطْعَمْ سِيسِلْ وَلَّا فُنْدُقْ سِيسِلْ؟',
           speaker: 'taxi driver',
           vocab: [
             {word: 'مطعم', meaning: 'restaurant', url: '/audio1970771774_01.mp3'},
@@ -116,7 +116,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/010.png',
-          convo: 'مطعم سيسل',
+          convo: 'مَطْعَمْ سِيسِلْ',
           speaker: 'man',
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -125,7 +125,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/011.png',
-          convo: 'ايه ده؟',
+          convo: 'اِيهْ دَهْ؟',
           speaker: speaker1,
           vocab: [
             {word: 'ده', meaning: 'this (m)', url: '/audio1970771774_01.mp3'},
@@ -134,7 +134,7 @@ export const lesson002 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-002/images/012.png',
-          convo: 'استنا',
+          convo: 'اِسْتَنَّا',
           speaker: speaker1,
           vocab: [
             {word: 'استنا', meaning: 'wait', url: '/audio1970771774_01.mp3'},
