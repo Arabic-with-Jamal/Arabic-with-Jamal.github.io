@@ -90,7 +90,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/005.png',
-          convo: 'مَسَاءِ النُّورْ أُسْتَاذَةْ رَضْوَى.أَنَا بِخِيرْ الْحَمْدُ لِلَّهْ. انْتيْ اِزَّيِّكْ؟',
+          convo: 'مَسَاءِ النُّورْ أُسْتَاذَةْ رَضْوَى.أَنَا بِخِيرْ الْحَمْدُ لِلَّه. اِنْتِيْ اِزَّيِّكْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'بخير', meaning: 'In good condition', url: '/audio1970771774_01.mp3'},
