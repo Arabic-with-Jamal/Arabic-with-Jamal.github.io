@@ -102,7 +102,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/007.png',
-          convo: 'اِيهْ الْاَخْبَارْ يَا صَاحْبِي؟ كُلُّهْ تَمَامْ؟',
+          convo: 'اِيهْ الْأَخْبَارْ يَا صَاحْبِي؟ كُلُّهْ تَمَامْ؟',
           speaker: audiobook,
           vocab: [
             {word: 'ايه', meaning: 'what', url: '/audio1970771774_01.mp3'},
