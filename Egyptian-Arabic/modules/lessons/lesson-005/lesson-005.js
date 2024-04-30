@@ -94,7 +94,7 @@ export const lesson005 = {
           convo: `انا اسمي ${arabSpeaker2}`,
           speaker: speaker2,
           vocab: [
-            {word: 'مستحيل', meaning: 'impossible', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
