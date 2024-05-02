@@ -141,7 +141,7 @@ export const lesson005 = {
           speaker: speaker2,
           vocab: [
             {word: 'احط', meaning: 'I put', url: '/audio1970771774_01.mp3'},
-            {word: 'بنزين', meaning: 'car feul', url: '/audio1970771774_01.mp3'},
+            {word: 'بنزين', meaning: 'car fuel', url: '/audio1970771774_01.mp3'},
             {word: 'بسرعة', meaning: 'quickly', url: '/audio1970771774_01.mp3'},
           ]
         },
