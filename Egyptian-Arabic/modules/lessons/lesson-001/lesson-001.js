@@ -165,7 +165,7 @@ export const lesson001 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/013.png',
           convo: 'مَعْلِشْ؟ اِلشَّنْطَةْ؟',
-          speaker: speaker4,
+          speaker: speaker1,
           vocab: [
             {word: 'معلش', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
           ]
