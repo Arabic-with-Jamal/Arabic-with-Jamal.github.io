@@ -106,7 +106,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/009.png',
-          convo: 'فين الشنطة؟',
+          convo: 'فِينِ الشَّنْطَةْ؟',
           speaker: speaker4,
           vocab: [
             {word: 'فين', meaning: 'where', url: '/audio1970771774_01.mp3'},
@@ -115,7 +115,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/010.png',
-          convo: 'الشنطة مع السلامة',
+          convo: 'اِلشَّنْطَةْ مَعَ السَّلَامَةْ',
           speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -124,7 +124,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/011.png',
-          convo: 'في التاكسي',
+          convo: 'فِي التَّاكْسِي',
           speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
@@ -133,7 +133,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/012.png',
-          convo: 'شنطتك ضايعة؟',
+          convo: 'شَنْطِتَكْ ضَايْعَةْ؟',
           speaker: speaker2,
           vocab: [
             {word: 'ضايعة', meaning: 'missing (f)', url: '/audio1970771774_01.mp3'},
@@ -142,7 +142,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/013.png',
-          convo: 'انت رايح فين؟',
+          convo: 'اِنْتَ رَايِحْ فِينْ؟',
           speaker: speaker2,
           vocab: [
             {word: 'رايح', meaning: 'going', url: '/audio1970771774_01.mp3'},
