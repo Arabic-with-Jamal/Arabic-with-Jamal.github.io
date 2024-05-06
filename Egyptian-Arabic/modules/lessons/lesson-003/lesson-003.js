@@ -35,7 +35,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/002.png',
-          convo: 'اشوف وشك بخير',
+          convo: 'اَشُوفْ وِشَّكْ بِخِيرْ',
           speaker: 'man',
           vocab: [
             {word: 'اشوف', meaning: '{I} see', url: '/audio1970771774_03.mp3'},
@@ -46,7 +46,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/003.png',
-          convo: 'سلام',
+          convo: 'سَلَامْ',
           speaker: 'woman',
           vocab: [
             {word: 'سلام', meaning: 'Bye (informal)', url: '/audio1970771774_03.mp3'},
@@ -55,7 +55,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/004.png',
-          convo: 'مع السلامة يا فندم',
+          convo: 'مَعَ السَّلَامَةْ يَا فَنْدَمْ',
           speaker: 'woman',
           vocab: [
             {word: 'مع', meaning: 'with', url: '/audio1970771774_03.mp3'},
@@ -67,7 +67,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/005.png',
-          convo: 'مع الف سلامة',
+          convo: 'مَعَ اَلْفْ سَلَامَةْ',
           speaker: 'man',
           vocab: [
             {word: 'الف', meaning: 'thousand', url: '/audio1970771774_01.mp3'},
@@ -76,7 +76,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/006.png',
-          convo: 'فيه مشكلة ولا حاجة؟',
+          convo: 'فِيهْ مُشْكِلَةْ وَلَّا حَاجَةْ؟',
           speaker: speaker2,
           vocab: [
             {word: 'فيه', meaning: 'there is/are', url: '/audio1970771774_01.mp3'},
@@ -87,7 +87,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/007.png',
-          convo: 'محتاج مساعدة؟',
+          convo: 'مِحْتَاجْ مُسَاعْدَةْ؟',
           speaker: speaker2,
           vocab: [
             {word: 'محتاج', meaning: 'need', url: '/audio1970771774_01.mp3'},
@@ -97,7 +97,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/008.png',
-          convo: 'ايوة محتاج مساعدة',
+          convo: 'اَيْوَةْ مِحْتَاجْ مُسَاعْدَةْ',
           speaker: speaker1,
           vocab: [
             {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
