@@ -86,7 +86,7 @@ lessons.forEach(lesson => {
           };
           break;
           
-        case 'vocabulary excersises':
+        case 'vocabulary exercises':
           const quizletElement = createAnElement('iframe', slideElement, 'quizlet');
           quizletElement.setAttribute('src', slide.quizletUrl);
         default:

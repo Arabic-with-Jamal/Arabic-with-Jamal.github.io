@@ -293,33 +293,33 @@ export const lesson004 = {
       ]
     },
     {
-      title: 'vocabulary excersises',
+      title: 'vocabulary exercises',
       slides: [
         {
           type: 'section-intro',
         },
         {
-          type: 'vocabulary excersises',
+          type: 'vocabulary exercises',
           title: 'flash cards',
           quizletUrl: "https://quizlet.com/893648898/flashcards/embed?i=2zi8pz&x=1jj1",
         },
         {
-          type: 'vocabulary excersises',
+          type: 'vocabulary exercises',
           title: 'Learn',
           quizletUrl: "https://quizlet.com/893648898/learn/embed?i=2zi8pz&x=1jj1",
         },
         {
-          type: 'vocabulary excersises',
+          type: 'vocabulary exercises',
           title: 'Spell',
           quizletUrl: "https://quizlet.com/893648898/write/embed?i=2zi8pz&x=1jj1",
         },
         {
-          type: 'vocabulary excersises',
+          type: 'vocabulary exercises',
           title: 'test',
           quizletUrl: "https://quizlet.com/893648898/test/embed?i=2zi8pz&x=1jj1",
         },
         {
-          type: 'vocabulary excersises',
+          type: 'vocabulary exercises',
           title: 'play',
           quizletUrl: "https://quizlet.com/893648898/match/embed?i=2zi8pz&x=1jj1",
         },
