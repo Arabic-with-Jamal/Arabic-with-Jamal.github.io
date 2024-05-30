@@ -55,7 +55,7 @@ export const lesson003 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-003/images/004.png',
-          convo: 'مَعَ السَّلَامَةْ يَا فَنْدَمْ',
+          convo: 'مَعَ السَّلَامَةْ يَا فَنْدِمْ',
           speaker: 'woman',
           vocab: [
             {word: 'مع', meaning: 'with', url: '/audio1970771774_03.mp3'},
