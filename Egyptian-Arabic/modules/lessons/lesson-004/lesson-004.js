@@ -23,7 +23,7 @@ export const lesson004 = {
           intro: true,
           description: 'In this lesson you will learn:',
           goals: [
-            '1- tp say your name',
+            '1- to say your name',
             '2- to ask for additional information and to ask people to repeat what they said ',
           ],
         }
