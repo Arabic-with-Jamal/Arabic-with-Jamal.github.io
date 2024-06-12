@@ -225,13 +225,6 @@ export const lesson003 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-003/images/001.png',
-          description: `Many of these words have Latin or Greek roots and were first adopted into
-          European languages before they spread around the world.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-003/images/001.png',
           description: `When you say farewell or goodbye in a formal way, you can also shake hands,
           just as you might when you greet someone.`
         },
