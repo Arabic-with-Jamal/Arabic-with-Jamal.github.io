@@ -56,7 +56,7 @@ export const lesson001 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/003.png',
-          convo: 'صَبَاحَ النُّورْ أُسْتَاذْ أَحْمَدْ.اِزَّايْ حَضْرِتَكْ',
+          convo: 'صَبَاحِ النُّورْ أُسْتَاذْ أَحْمَدْ.اِزَّايْ حَضْرِتَكْ',
           speaker: audiobook,
           vocab: [
             {word: 'النور', meaning: 'light', url: '/audio1970771774_01.mp3'},
