@@ -231,33 +231,34 @@ export const lesson005 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `The possesive adjective (my) in Egyptian Arabic is achived by adding
-          letter ya (ي) at the end of the noun`
+          description: `present tense in Arabic has two forms: one for present simple and one for infinitive.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `For example: Ism (اسم) = name, becomes: ismi (اسمي) = my name`
+          description: `the present simple form is used to say what you are doing now, or what you
+          do regularly.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `Umm (ام) = mother, becomes: ummi (امي) = my mom`
+          description: ` It is formed by adding the suffix (ba -ب) to the verb root for the (he) form. For example,
+          the verb يكتب (to write) becomes بيكتب (he writes).`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `Can you guess what (my teacher) would be in Arabic?`
+          description: `in the infinitive form, the verb root is used without any suffixes. And it
+          starts with a (ya - ي) For example, the verb يكتب`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `You might want to be careful when shaking hands with the opposite sex.
-          Many people would not mind, but some would`
+          description: `This form is used after other modal verbs like (عايز - want) or (لازم - must).`
         },
       ]
     },
