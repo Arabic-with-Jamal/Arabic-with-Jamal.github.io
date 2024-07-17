@@ -237,6 +237,19 @@ export const lesson005 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-005/images/001.png',
+          description: `in the infinitive form, the verb root is used without any suffixes. And it
+          starts with a (ya - ي) For example, the verb يكتب`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-005/images/001.png',
+          description: `This form is used after other modal verbs like (عايز - want) or (لازم - must).`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-005/images/001.png',
           description: `the present simple form is used to say what you are doing now, or what you
           do regularly.`
         },
@@ -246,19 +259,6 @@ export const lesson005 = {
           imgURl: './modules/lessons/lesson-005/images/001.png',
           description: ` It is formed by adding the suffix (ba -ب) to the verb root for the (he) form. For example,
           the verb يكتب (to write) becomes بيكتب (he writes).`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `in the infinitive form, the verb root is used without any suffixes. And it
-          starts with a (ya - ي) For example, the verb يكتب`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-005/images/001.png',
-          description: `This form is used after other modal verbs like (عايز - want) or (لازم - must).`
         },
       ]
     },
