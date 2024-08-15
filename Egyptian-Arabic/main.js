@@ -212,3 +212,33 @@ previousButton.addEventListener("click", function() {
   }
 });
 
+var sentence = [];
+					var sentenceContainer = document.querySelector("#sentence-container");
+					var words = document.querySelectorAll("#sentence-activity .word");
+				
+					for (var i = 0; i < words.length; i++) {
+					  words[i].addEventListener("click", function(event) {
+						var word = event.target.textContent;
+						var index = sentence.length;
+						if (word === getNextWord()) {
+						  sentence.push(word);
+						  sentenceContainer.textContent = sentence.join(" ");
+						  event.target.style.display = "none";
+						  if (sentence.length === words.length) {
+							const sentenceContainer = document.getElementById('sentence-container');
+                            sentenceContainer.style.color = 'green';
+                            sentenceContainer.style.fontWeight = 'bold';
+							sentenceContainer.style.height = '384px';
+                            }
+						} else {
+						  event.target.classList.add("error");
+						  setTimeout(function() {
+							event.target.classList.remove("error");
+						  }, 1500);
+						}
+					  });
+					}
+				
+					function getNextWord() {
+					  return words[sentence.length].textContent;
+					}
