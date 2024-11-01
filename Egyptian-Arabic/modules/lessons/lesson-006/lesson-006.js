@@ -1,8 +1,8 @@
 import { speaker1, speaker2, speaker4, narrator, audiobook, arabSpeaker4, arabSpeaker1, arabSpeaker2} from "../lesson-001/lesson-001.js"
 
-export const lesson005 = {
+export const lesson006 = {
   chapter: 'Meeting people',
-  title: 'What is your name?',
+  title: 'This is my friend',
   sections: [
     {
       title: 'Introduction',
