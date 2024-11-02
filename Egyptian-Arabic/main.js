@@ -1,7 +1,7 @@
 import lessons from "./modules/lessons.js";
 import { createAnElement, playSound, quizletMaker } from "./modules/utilties.js";
 
-console.log(quizletMaker(lessons[5]))
+console.log(quizletMaker(lessons[6]))
 const container = document.querySelector('.container');
 const links = document.querySelector('.dropdown-content');
 let activeLesson = null;

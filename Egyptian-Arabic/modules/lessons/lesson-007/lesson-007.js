@@ -174,8 +174,7 @@ export const lesson007 = {
           convo: `مش فاهم معلش`,
           speaker: speaker1,
           vocab: [
-            {word: 'خلاص', meaning: 'enough', url: '/audio1970771774_01.mp3'},
-            {word: 'مهم', meaning: 'important', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -184,8 +183,7 @@ export const lesson007 = {
           convo: `يعني انت منين في امريكا`,
           speaker: max,
           vocab: [
-            {word: 'احنا', meaning: 'we', url: '/audio1970771774_01.mp3'},
-            {word: 'سوا', meaning: 'together', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -194,7 +192,7 @@ export const lesson007 = {
           convo: `من كاليفورنيا ولا نيو يورك`,
           speaker: max,
           vocab: [
-            {word: 'بتعمل', meaning: 'you do', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -357,27 +355,27 @@ export const lesson007 = {
         {
           type: 'vocabulary exercises',
           title: 'flash cards',
-          quizletUrl: "https://quizlet.com/920586898/flashcards/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/965852179/flashcards/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary exercises',
           title: 'Learn',
-          quizletUrl: "https://quizlet.com/920586898/learn/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/965852179/learn/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary exercises',
           title: 'Spell',
-          quizletUrl: "https://quizlet.com/920586898/write/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/965852179/write/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary exercises',
           title: 'test',
-          quizletUrl: "https://quizlet.com/920586898/test/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/965852179/test/embed?i=2zi8pz&x=1jj1",
         },
         {
           type: 'vocabulary exercises',
           title: 'play',
-          quizletUrl: "https://quizlet.com/920586898/match/embed?i=2zi8pz&x=1jj1",
+          quizletUrl: "https://quizlet.com/965852179/match/embed?i=2zi8pz&x=1jj1",
         },
       ]
     },
