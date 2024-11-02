@@ -189,6 +189,163 @@ export const lesson007 = {
             {word: 'سوا', meaning: 'together', url: '/audio1970771774_01.mp3'},
           ]
         },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/019.png',
+          convo: `بتعمل ايه يا ${arabSpeaker1}`,
+          speaker: speaker2,
+          vocab: [
+            {word: 'بتعمل', meaning: 'you do', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/020.png',
+          convo: `stop`,
+          speaker: speaker1,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/021.png',
+          convo: 'ايه العبيط ده؟',
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'عبيط', meaning: 'idiot', url: '/audio1970771774_03.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/022.png',
+          convo: `عايز ايه يا عم انت؟`,
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'عم', meaning: 'uncle, slang for (guy)', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/023.png',
+          convo: `خليكي مكانك هنا`,
+          speaker: speaker2,
+          vocab: [
+            {word: 'خليك', meaning: 'stay', url: '/audio1970771774_01.mp3'},
+            {word: 'مكان', meaning: 'place', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/024.png',
+          convo: 'شنطتي هنا',
+          speaker: speaker1,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/025.png',
+          convo: `شنطة ايه؟ انت مين يا عم انت؟`,
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/026.png',
+          convo: `معلش أنا اسفة جدا`,
+          speaker: speaker2,
+          vocab: [
+            {word: 'اسفة', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/027.png',
+          convo: `ده ${arabSpeaker1} هو مش من مصر`, 
+          speaker: speaker2,
+          vocab: [
+            {word: 'هو', meaning: 'he', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/028.png',
+          convo: 'هو بيدور على شنطته',
+          speaker: speaker2,
+          vocab: [
+            {word: 'بيدور على', meaning: 'he looks for', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/029.png',
+          convo: 'ايوة وبعدين؟',
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'بعدين', meaning: 'then', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/030.png',
+          convo: 'هي مش في العربية؟',
+          speaker: speaker2,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/031.png',
+          convo: 'لا مفيش حاجة في العربية',
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/032.png',
+          convo: `فين؟`,
+          speaker: speaker1,
+          vocab: [
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/033.png',
+          convo: `معرفش يا عم انا مالي`,
+          speaker: 'taxi driver',
+          vocab: [
+            {word: 'معرفش', meaning: 'I do not know', url: '/audio1970771774_01.mp3'},
+            {word: 'انا مالي', meaning: 'not my busines', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/034.png',
+          convo: `خلاص تعالى مش مهم`,
+          speaker: speaker2,
+          vocab: [
+            {word: 'خلاص', meaning: 'enough', url: '/audio1970771774_01.mp3'},
+            {word: 'مهم', meaning: 'important', url: '/audio1970771774_01.mp3'},
+          ]
+        },
+        {
+          type: 'Story',
+          imgURl: './modules/lessons/lesson-007/images/035.png',
+          convo: `احنا هندور عليها سوا`,
+          speaker: speaker2,
+          vocab: [
+            {word: 'احنا', meaning: 'we', url: '/audio1970771774_01.mp3'},
+            {word: 'سوا', meaning: 'together', url: '/audio1970771774_01.mp3'},
+          ]
+        },
       ]
     },
     {
