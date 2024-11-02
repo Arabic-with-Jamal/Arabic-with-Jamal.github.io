@@ -56,7 +56,7 @@ export const lesson007 = {
           convo: 'زي الفل الحمد لله',
           speaker: max,
           vocab: [
-            {word: 'عبيط', meaning: 'idiot', url: '/audio1970771774_03.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -65,7 +65,7 @@ export const lesson007 = {
           convo: `عاملة ايه يا دنيا؟`,
           speaker: max,
           vocab: [
-            {word: 'عم', meaning: 'uncle, slang for (guy)', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -74,8 +74,7 @@ export const lesson007 = {
           convo: `كويسة يا عمو`,
           speaker: speaker4,
           vocab: [
-            {word: 'خليك', meaning: 'stay', url: '/audio1970771774_01.mp3'},
-            {word: 'مكان', meaning: 'place', url: '/audio1970771774_01.mp3'},
+            {word: 'عمو', meaning: 'a word that kids call adults', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -102,7 +101,7 @@ export const lesson007 = {
           convo: `اتشرفنا`,
           speaker: max,
           vocab: [
-            {word: 'اسفة', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
+            {word: 'اتشرفنا', meaning: 'we are honored', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -111,7 +110,7 @@ export const lesson007 = {
           convo: `انت مش من مصر صح؟`, 
           speaker: max,
           vocab: [
-            {word: 'هو', meaning: 'he', url: '/audio1970771774_01.mp3'},
+            {word: 'صح', meaning: 'right', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -120,7 +119,7 @@ export const lesson007 = {
           convo: 'معلش انا مش فاهم',
           speaker: speaker1,
           vocab: [
-            {word: 'بيدور على', meaning: 'he looks for', url: '/audio1970771774_01.mp3'},
+            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -129,7 +128,8 @@ export const lesson007 = {
           convo: 'يعني انت منين؟',
           speaker: max,
           vocab: [
-            {word: 'بعدين', meaning: 'then', url: '/audio1970771774_01.mp3'},
+            {word: 'يعني', meaning: 'means', url: '/audio1970771774_01.mp3'},
+            {word: 'منين', meaning: 'where from', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -147,7 +147,7 @@ export const lesson007 = {
           convo: 'وانا دنيا من مصر برضه',
           speaker: speaker4,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'برضه', meaning: 'too', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -165,8 +165,7 @@ export const lesson007 = {
           convo: ` انت عايش فين في امريكا`,
           speaker: max,
           vocab: [
-            {word: 'معرفش', meaning: 'I do not know', url: '/audio1970771774_01.mp3'},
-            {word: 'انا مالي', meaning: 'not my busines', url: '/audio1970771774_01.mp3'},
+            {word: 'عايش', meaning: 'live', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -213,7 +212,7 @@ export const lesson007 = {
           convo: `${arabSpeaker1} كان برضه في المطار`,
           speaker: speaker2,
           vocab: [
-            {word: 'عبيط', meaning: 'idiot', url: '/audio1970771774_03.mp3'},
+            {word: 'كان', meaning: 'was', url: '/audio1970771774_03.mp3'},
           ]
         },
         {
@@ -222,7 +221,8 @@ export const lesson007 = {
           convo: `بس هو عنده مشكلة`,
           speaker: speaker2,
           vocab: [
-            {word: 'عم', meaning: 'uncle, slang for (guy)', url: '/audio1970771774_01.mp3'},
+            {word: 'بس', meaning: 'but', url: '/audio1970771774_01.mp3'},
+            {word: 'عنده', meaning: 'he has', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -231,35 +231,35 @@ export const lesson007 = {
           convo: `شنطته ضايعة`,
           speaker: speaker2,
           vocab: [
-            {word: 'خليك', meaning: 'stay', url: '/audio1970771774_01.mp3'},
-            {word: 'مكان', meaning: 'place', url: '/audio1970771774_01.mp3'},
+            {word: 'ـه', meaning: 'his', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-007/images/024.png',
-          convo: 'طب وبعدين، هتعمل ايه؟',
+          convo: 'وبعدين هتعمل ايه دلوقتي؟',
           speaker: max,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'دلوقتي', meaning: 'now', url: '/audio1970771774_01.mp3'},
+            {word: 'هتعمل', meaning: 'you will do', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-007/images/025.png',
-          convo: `انا بدور على عمتي`,
+          convo: `انا بدور على خالتي`,
           speaker: speaker1,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'بدور على', meaning: 'I am looking for', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-007/images/026.png',
-          convo: `خالة نيكو عايشة هنا في مصر`,
+          convo: `خالة ${arabSpeaker1} عايشة هنا في مصر`,
           speaker: speaker2,
           vocab: [
-            {word: 'اسفة', meaning: 'sorry', url: '/audio1970771774_01.mp3'},
+            {word: 'عايشة', meaning: 'live', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -268,7 +268,7 @@ export const lesson007 = {
           convo: `بس هو مش معاه العنوان`, 
           speaker: speaker2,
           vocab: [
-            {word: 'هو', meaning: 'he', url: '/audio1970771774_01.mp3'},
+            {word: 'معاه', meaning: 'he has [on him now]', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -277,7 +277,7 @@ export const lesson007 = {
           convo: 'ممكن تتصل بيها؟',
           speaker: max,
           vocab: [
-            {word: 'بيدور على', meaning: 'he looks for', url: '/audio1970771774_01.mp3'},
+            {word: 'تتصل بيها', meaning: 'you call her', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -286,7 +286,7 @@ export const lesson007 = {
           convo: 'الرقم كان في الشنطة',
           speaker: speaker1,
           vocab: [
-            {word: 'بعدين', meaning: 'then', url: '/audio1970771774_01.mp3'},
+            {word: 'رقم', meaning: 'number', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -295,7 +295,8 @@ export const lesson007 = {
           convo: 'وتليفوني كمان كان في الشنطة',
           speaker: speaker1,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'تليفون', meaning: 'phone', url: '/audio1970771774_01.mp3'},
+            {word: 'كمان', meaning: 'as well', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -304,7 +305,8 @@ export const lesson007 = {
           convo: 'مش انتي باباكي ظابط؟',
           speaker: max,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'ظابط', meaning: 'officer', url: '/audio1970771774_01.mp3'},
+            {word: 'بابا', meaning: 'dad', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -313,7 +315,8 @@ export const lesson007 = {
           convo: `يعني ممكن يساعدنا`,
           speaker: max,
           vocab: [
-            {word: 'مفيش جديد', meaning: 'no new words', url: '/audio1970771774_01.mp3'},
+            {word: 'يساعد', meaning: 'he helps', url: '/audio1970771774_01.mp3'},
+            {word: 'نا', meaning: 'us', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -322,8 +325,7 @@ export const lesson007 = {
           convo: `فكرة حلوة`,
           speaker: speaker2,
           vocab: [
-            {word: 'معرفش', meaning: 'I do not know', url: '/audio1970771774_01.mp3'},
-            {word: 'انا مالي', meaning: 'not my busines', url: '/audio1970771774_01.mp3'},
+            {word: 'فكرة', meaning: 'idea', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -332,8 +334,7 @@ export const lesson007 = {
           convo: `ثانية واحدة`,
           speaker: speaker2,
           vocab: [
-            {word: 'خلاص', meaning: 'enough', url: '/audio1970771774_01.mp3'},
-            {word: 'مهم', meaning: 'important', url: '/audio1970771774_01.mp3'},
+            {word: 'ثانية', meaning: 'second', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
@@ -342,8 +343,7 @@ export const lesson007 = {
           convo: `الو`,
           speaker: speaker2,
           vocab: [
-            {word: 'احنا', meaning: 'we', url: '/audio1970771774_01.mp3'},
-            {word: 'سوا', meaning: 'together', url: '/audio1970771774_01.mp3'},
+            {word: 'الو', meaning: 'phone greeting', url: '/audio1970771774_01.mp3'},
           ]
         },
       ]

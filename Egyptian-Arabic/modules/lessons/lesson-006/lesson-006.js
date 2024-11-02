@@ -112,6 +112,8 @@ export const lesson006 = {
           speaker: speaker2,
           vocab: [
             {word: 'هو', meaning: 'he', url: '/audio1970771774_01.mp3'},
+            {word: 'من', meaning: 'from', url: '/audio1970771774_01.mp3'},
+            {word: 'مصر', meaning: 'egypt', url: '/audio1970771774_01.mp3'},
           ]
         },
         {
