@@ -6,6 +6,8 @@ export const narrator = 'Narrator';
 export const arabSpeaker1 = 'توم';
 export const arabSpeaker2 = 'اسماء';
 export const arabSpeaker4 = 'دنيا';
+export const max = 'Mohamed';
+export const arabMax = 'محمد';
 
 
 export const lesson001 = {
