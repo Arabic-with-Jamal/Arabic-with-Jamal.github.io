@@ -233,34 +233,91 @@ export const lesson006 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `present tense in Arabic has two forms: one for present simple and one for infinitive.`
+          description: `In Arabic, the verb is conjugated according to the subject.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `in the infinitive form, the verb root is used without any suffixes. And it
-          starts with a (ya - ي) For example, the verb يكتب`
+          description: `The infinitive form always starts with a letter that indicates the sublect.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `This form is used after other modal verbs like (عايز - want) or (لازم - must).`
+          description: `The indicator letter is always Kasra, with one exception.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `the present simple form is used to say what you are doing now, or what you
-          do regularly.`
+          description: `The exception is the (I) form, which is always Fatha.`
+        },        
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `The letter (ب) is used for the (he) form. For example, he writes is يكتب.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: ` It is formed by adding the suffix (ba -ب) to the verb root for the (he) form. For example,
-          the verb يكتب (to write) becomes بيكتب (he writes).`
+          description: `The letter (ت) is used for the (you) form. For example, you write is تكتب.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `the letter (ا) is used for the (I) form. For example, I write is اكتب.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `the letter (ن) is used for the (we) form. For example, we write is نكتب.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `some modal verbs that are used before the infinitive are:`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I want is انا عايز/عايزة.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I can is انا قادر/قادرة.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I have to is لازم.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I need is انا محتاج/محتاجة.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I agree is انا موافق/موافقة.`
+        },
+        {
+          type: 'grammar',
+          title: 'explanation',
+          imgURl: './modules/lessons/lesson-006/images/001.png',
+          description: `I might is انا ممكن (not: it is the same word for masculine and feminie)` 
         },
       ]
     },
