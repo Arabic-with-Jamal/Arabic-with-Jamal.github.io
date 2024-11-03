@@ -390,91 +390,52 @@ export const lesson007 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `In Arabic, the verb is conjugated according to the subject.`
+          description: `The present tense in Arabic is formed by using the infinitive form of the verb.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `The infinitive form always starts with a letter that indicates the sublect.`
+          description: `we only need to add the letter (ب) before the first letter 
+          (indicatory letter) to form the present tense.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `The indicator letter is always Kasra, with one exception.`
+          description: `This present letter (ب) should have a Kasra. except for the (I) form, which will be Fatha.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `The exception is the (I) form, which is always Fatha.`
+          description: `With the (I) form, the indicative letter (ا) will be dropped when we add the 
+          present letter (ب).`
         },        
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `The letter (ب) is used for the (he) form. For example, he writes is يكتب.`
+          description: `For example, he writes is بِيِكْتِبْ.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `The letter (ت) is used for the (you) form. For example, you write is تكتب.`
+          description: `we write is بِنِكْتِبْ.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `the letter (ا) is used for the (I) form. For example, I write is اكتب.`
+          description: `you write is بِتِكْتِبْ.`
         },
         {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `the letter (ن) is used for the (we) form. For example, we write is نكتب.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `some modal verbs that are used before the infinitive are:`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I want is انا عايز/عايزة.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I can is انا قادر/قادرة.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I have to is لازم.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I need is انا محتاج/محتاجة.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I agree is انا موافق/موافقة.`
-        },
-        {
-          type: 'grammar',
-          title: 'explanation',
-          imgURl: './modules/lessons/lesson-007/images/001.png',
-          description: `I might is انا ممكن (not: it is the same word for masculine and feminie)` 
+          description: `But I write is بَكْتِبْ. with the indicative letter (ا) dropped. and the 
+          present letter (ب) with a Fatha instead of a Kasra.`
         },
       ]
     },
