@@ -214,7 +214,7 @@ export const lesson001 = {
           type: 'Story',
           imgURl: './modules/lessons/lesson-001/images/018.png',
           convo: 'شَارِعِ السَّلَامْ فِي الْعَجَمِي',
-          speaker: speaker1,
+          speaker: 'The note',
           vocab: [
             {word: 'شارع', meaning: 'street', url: '/audio1970771774_01.mp3'},
             {word: 'في', meaning: 'in', url: '/audio1970771774_01.mp3'},
