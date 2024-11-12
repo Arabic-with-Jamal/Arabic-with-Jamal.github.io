@@ -12,9 +12,8 @@ export const lesson008 = {
           imgURl: './modules/lessons/lesson-008/images/001.png',
           title: 'Introduction',
           intro: true,
-          description: `${speaker2}, ${speaker1} and ${speaker4} are about to drive on when ${speaker2} runs into her friend 
-          ${max}. ${max} asks ${speaker1} who he is and where he comes from. When it becomes clear that ${speaker1} 
-          doesn’t know how to find his aunt, ${max} has an idea.`
+          description: `${speaker2} phones her father who is in the police force. He says she is 
+          to bring ${speaker1} to the police station. Maybe her father can help ${speaker1}.`
         },
         {
           type: 'intro',
@@ -23,8 +22,7 @@ export const lesson008 = {
           intro: true,
           description: 'In this lesson you will learn:',
           goals: [
-            '1- how to introduce yourself',
-            '2- how to speak about names, where you come from and where you live',
+            '1- to introduce other people',
           ],
         }
       ]
