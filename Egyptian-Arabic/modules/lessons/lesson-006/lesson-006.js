@@ -35,7 +35,7 @@ export const lesson006 = {
         {
           type: 'Story',
           imgURl: './modules/lessons/lesson-006/images/002.png',
-          convo: `بتعمل ايه يا ${arabSpeaker1}`,
+          convo: `؟بتعمل ايه يا ${arabSpeaker1}`,
           speaker: speaker2,
           vocab: [
             {word: 'بتعمل', meaning: 'you do', url: '/audio1970771774_01.mp3'},
