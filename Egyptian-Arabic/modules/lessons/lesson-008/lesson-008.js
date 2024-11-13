@@ -295,53 +295,6 @@ export const lesson008 = {
             {word: 'كمان', meaning: 'as well', url: '/audio1970771774_01.mp3'},
           ]
         },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-008/images/031.png',
-          convo: 'مش انتي باباكي ظابط؟',
-          speaker: max,
-          vocab: [
-            {word: 'ظابط', meaning: 'officer', url: '/audio1970771774_01.mp3'},
-            {word: 'بابا', meaning: 'dad', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-008/images/032.png',
-          convo: `يعني ممكن يساعدنا`,
-          speaker: max,
-          vocab: [
-            {word: 'يساعد', meaning: 'he helps', url: '/audio1970771774_01.mp3'},
-            {word: 'نا', meaning: 'us', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-008/images/033.png',
-          convo: `فكرة حلوة`,
-          speaker: speaker2,
-          vocab: [
-            {word: 'فكرة', meaning: 'idea', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-008/images/034.png',
-          convo: `ثانية واحدة`,
-          speaker: speaker2,
-          vocab: [
-            {word: 'ثانية', meaning: 'second', url: '/audio1970771774_01.mp3'},
-          ]
-        },
-        {
-          type: 'Story',
-          imgURl: './modules/lessons/lesson-008/images/035.png',
-          convo: `الو`,
-          speaker: speaker2,
-          vocab: [
-            {word: 'الو', meaning: 'phone greeting', url: '/audio1970771774_01.mp3'},
-          ]
-        },
       ]
     },
     {
