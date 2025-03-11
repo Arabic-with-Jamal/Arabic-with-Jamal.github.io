@@ -321,7 +321,7 @@ export const lesson006 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `I might is انا ممكن (not: it is the same word for masculine and feminie)` 
+          description: `I might is انا ممكن (note: it is the same word for masculine and feminie)` 
         },
       ]
     },
