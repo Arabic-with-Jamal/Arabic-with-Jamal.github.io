@@ -261,7 +261,7 @@ export const lesson006 = {
           type: 'grammar',
           title: 'explanation',
           imgURl: './modules/lessons/lesson-006/images/001.png',
-          description: `The letter (ب) is used for the (he) form. For example, he writes is يكتب.`
+          description: `The letter (ي) is used for the (he) form. For example, he writes is يكتب.`
         },
         {
           type: 'grammar',
